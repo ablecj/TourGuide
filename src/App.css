@@ -1,0 +1,26 @@
+:root {
+  --primary-bg: #fff;
+  --secondary: #ed4225;
+  --teritary-color: #01aaa0;
+}
+
+
+/* body color */
+body {
+  background-color: var(--primary-bg);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
