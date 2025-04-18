@@ -2,6 +2,8 @@
   --primary-bg: #fff;
   --secondary: #ed4225;
   --teritary-color: #01aaa0;
+  --text-color: #444;
+  --secondary-shades: #eb7249;
 }
 
 
@@ -10,6 +12,74 @@ body {
   background-color: var(--primary-bg);
 
 }
+
+/* font family  */
+html, body {
+  font-family: 'Roboto', sans-serif !important;
+}
+/* font weight & font size */
+h2 {
+  font-weight: 700 !important; 
+  font-size: 24px !important;
+}
+p {
+  font-weight: 300 !important; 
+  font-size: 18px !important;
+}
+
+.small-text {
+  font-weight: 100 !important; 
+}
+
+/* links */
+a {
+  color: #006adc;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,58 @@
+/* popularSection */
+.popularSection {
+    padding: 48px 24px 48px 24px;
+
+}
+/* popularSection_title */
+
+.popularSectionHeading .popularSection_title {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--text-color);
+    letter-spacing: -.01px;
+    margin-bottom: 8px;
+    display: inline-block;
+    position: relative;
+    text-transform: capitalize;
+} 
+.popularSectionHeading .popularSection_title:after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    height: 2px;
+    left: 50%;
+    background: var(--secondary-shades);
+    width: 50%;
+    margin-left: -25%;
+}
+.page-section-desc {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: normal;
+    max-width: 100%;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

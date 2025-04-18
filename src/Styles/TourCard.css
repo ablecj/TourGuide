@@ -1,0 +1,120 @@
+/* TourCard */
+.card-item-col .card {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    transition: all .28s cubic-bezier(.15,0,.15,1);
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    backface-visibility: hidden;
+    transform: translateZ(0) scale(1.0, 1.0);
+    background-color: #ededed;
+}
+/* card */
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+/* card links */
+.card-item-col .card .card-link {
+    z-index: 1;
+    position: relative;
+    background: none;
+    border: 0;
+}
+
+a {
+    color: #006adc;
+    text-decoration: none;
+    background-color: transparent;
+}
+/* image */
+.card-item-col .card .card-image {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ededed;
+    background-image: url(https://www.fundayholidays.com/wp-content/themes/funday/./assets/images/preloader.gif);
+    border-radius: 5px 5px 0 0;
+}
+.card-item-col .card .card-image img.img-fluid {
+    z-index: 1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.card-item-col .card .card-image img.img-fluid:hover{
+    transform: scale(1.1);
+    transition: transform 0.8s ease;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+/* night day */
+.card-item-col .card .card-image .tour-durations {
+    margin-bottom: 0;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: #111;
+    background-color: #ededed;
+    padding: 0;
+    border-radius: 0 4px 0 0;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
