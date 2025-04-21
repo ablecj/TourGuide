@@ -1,95 +1,212 @@
 /* TourCard */
-.card-item-col .card {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    border-radius: 10px;
-    overflow: hidden;
-    height: 100%;
-    transition: all .28s cubic-bezier(.15,0,.15,1);
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0) scale(1.0, 1.0);
-    backface-visibility: hidden;
-    transform: translateZ(0) scale(1.0, 1.0);
-    background-color: #ededed;
+.card-items .card-item-col {
+    padding: calc(var(--bs-gutter-x) * .5);
 }
+.card-item-col .card {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 100%;
+  transition: all 0.28s cubic-bezier(0.15, 0, 0.15, 1);
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1, 1);
+  backface-visibility: hidden;
+  transform: translateZ(0) scale(1, 1);
+  background-color: #ededed;
+}
+.card-item-col .card:hover {
+    z-index: 999;
+    -webkit-box-shadow: 0 1rem 3rem #000;
+    -moz-box-shadow: 0 1rem 3rem rgba(0,0,0,0.3);
+    box-shadow: 0 1rem 3rem #000;
+    -webkit-transform: translateY(-4px);
+    -moz-transform: translateY(-4px);
+    -o-transform: translateY(-4px);
+    -ms-transform: translateY(-4px);
+    transform: translateY(-4px);
+}
+
 /* card */
 .card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: .25rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
 }
 /* card links */
 .card-item-col .card .card-link {
-    z-index: 1;
-    position: relative;
-    background: none;
-    border: 0;
+  z-index: 1;
+  position: relative;
+  background: none;
+  border: 0;
 }
 
 a {
-    color: #006adc;
-    text-decoration: none;
-    background-color: transparent;
+  color: #006adc;
+  text-decoration: none;
+  background-color: transparent;
 }
 /* image */
 .card-item-col .card .card-image {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    width: 100%;
-    height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #ededed;
-    background-image: url(https://www.fundayholidays.com/wp-content/themes/funday/./assets/images/preloader.gif);
-    border-radius: 5px 5px 0 0;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ededed;
+  background-image: url(https://www.fundayholidays.com/wp-content/themes/funday/./assets/images/preloader.gif);
+  border-radius: 5px 5px 0 0;
 }
 .card-item-col .card .card-image img.img-fluid {
-    z-index: 1;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    object-position: center;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+  z-index: 1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
-.card-item-col .card .card-image img.img-fluid:hover{
-    transform: scale(1.1);
-    transition: transform 0.8s ease;
+.card-item-col .card .card-image img.img-fluid:hover {
+  transform: scale(1.1);
+  transition: transform 0.8s ease;
 }
 
 .img-fluid {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 /* night day */
 .card-item-col .card .card-image .tour-durations {
-    margin-bottom: 0;
-    z-index: 1;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    color: #111;
-    background-color: #ededed;
-    padding: 0;
-    border-radius: 0 4px 0 0;
-    font-size: 13px;
+  margin-bottom: 0;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  color: #111;
+  background-color: #ededed;
+  padding: 0;
+  border-radius: 0 4px 0 0;
+  font-size: 13px;
 }
 
+/* card style  */
+.card-item-col .card .card-body {
+  z-index: 1;
+  position: relative;
+  background: none;
+  border: 0;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+/* star css */
+.star-wrapper {
+  position: relative;
+  display: inline-block;
+  font-size: 1.2rem;
+  line-height: 1;
+  color: #dab800 !important;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  text-align: left;
+  text-shadow: none;
+}
+
+.empty-stars,
+.filled-stars {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.empty-stars {
+  color: #ccc;
+  z-index: 1;
+}
+
+.filled-stars {
+  color: #dab800 !important;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* icon * */
+.star-ratings i.fa-star {
+  margin: 0 1px;
+  font-size: small;
+}
+
+/* card title */
+.card-item-col .card .card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    line-height: 25px;
+}
+
+/* border line */
+.card-item-col .card .card-footer hr {
+    background: #000;
+    opacity: .1;
+    border: 0;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+
+/* card footer */
+.card-items .card-item-col .card-footer {
+    padding: calc(var(--bs-gutter-x) * .5);
+    border: none !important;
+    padding: 15px !important;
+} 
+
+/* includes section */
+.card-item-col .card .tour-includes {
+    font-size: 13px;
+    text-align: center;
+}
+
+/* button */
+.card-item-col .card .card-footer .btn {
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
+}
+.card-item-col .card .btn-tour {
+    color: #FFF;
+    background-color: #ff633e;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.card-item-col .card .btn-tour:hover {
+    color: #fff;
+    background: #03a69f;
+    border-color: #03a69f;
+}
 
 
 

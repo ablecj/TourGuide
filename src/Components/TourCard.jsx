@@ -61,7 +61,7 @@ const TourCard = ({
           </a>
         </div> */}
 
-        <div className="card-body">
+        {/* <div className="card-body">
           <div className="star-ratings mt-0 mb-2" title={`${stars} stars`}>
             <span className="sr-only">{stars}/5</span>
             <span className="regular-stars">
@@ -79,12 +79,25 @@ const TourCard = ({
             </span>
           </div>
           <h3 className="card-title m-0">{title}</h3>
+        </div> */}
+        <div className="card-body">
+          <div className="star-ratings mt-0 mb-2" title={`${stars} stars`}>
+            <span className="sr-only">{stars}/5</span>
+            <span className="star-wrapper">
+              {[...Array(filledStars)].map((_, i) => (
+                <i key={`filled-${i}`} className="fas fa-star"></i>
+              ))}
+              {[...Array(emptyStars)].map((_, i) => (
+                <i key={`empty-${i}`} className="far fa-star"></i>
+              ))}
+            </span>
+          </div>
+          <h3 className="card-title m-0">5 Nights 6 Days Kerala Package</h3>
         </div>
-
         <div className="card-footer">
           <hr className="mt-0" />
           <div className="tour-includes">
-            <h4 className="title">Includes</h4>
+            {/* <h4 className="title">Includes</h4> */}
             <ul className="list-group list-group-horizontal bg-transparent list-unstyled m-0 p-0">
               {includes.map((item, index) => (
                 <li

@@ -1,58 +1,125 @@
 /* popularSection */
 .popularSection {
-    padding: 48px 24px 48px 24px;
-
+  padding: 48px 24px 48px 24px;
 }
 /* popularSection_title */
 
 .popularSectionHeading .popularSection_title {
-    font-size: 24px;
-    line-height: 30px;
-    font-weight: 700;
-    margin: 0;
-    color: var(--text-color);
-    letter-spacing: -.01px;
-    margin-bottom: 8px;
-    display: inline-block;
-    position: relative;
-    text-transform: capitalize;
-} 
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text-color);
+  letter-spacing: -0.01px;
+  margin-bottom: 8px;
+  display: inline-block;
+  position: relative;
+  text-transform: capitalize;
+}
 .popularSectionHeading .popularSection_title:after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    height: 2px;
-    left: 50%;
-    background: var(--secondary-shades);
-    width: 50%;
-    margin-left: -25%;
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  left: 50%;
+  background: var(--secondary-shades);
+  width: 50%;
+  margin-left: -25%;
 }
 .page-section-desc {
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
-    -ms-hyphens: none;
-    hyphens: none;
-    font-weight: 400;
-    word-wrap: break-word;
-    line-height: normal;
-    max-width: 100%;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  font-weight: 400;
+  word-wrap: break-word;
+  line-height: normal;
+  max-width: 100%;
 }
 
+/* view_all_btn */
+.view_all_btn {
+  display: flex;
+  justify-content: center;
 
-  
+}
+.view_all_btn .page-section-link {
+  font-weight: 600;
+  padding: 8px 15px;
+  display: block;
+  border-radius: 5px;
+  font-size: 13px;
+  line-height: 13px;
+  z-index: 1;
+  text-transform: uppercase;
+}
 
+/* popular destinations   .Popular_Destination */
+.Popular_Destination {
+  margin-top: 60px;
+}
 
+.Popular_Destination .page-section-header {
+  position: relative;
+  color: #444;
+  margin-bottom: 25px;
+}
 
+.Popular_Destination .page-section-title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0;
+  color: #444;
+  letter-spacing: -0.01px;
+  margin-bottom: 8px;
+  display: inline-block;
+  position: relative;
+  text-transform: capitalize;
+}
 
+.Popular_Destination .page-section-title:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  left: 50%;
+  background: #eb7249;
+  width: 50%;
+  margin-left: -25%;
+}
 
+.Popular_Destination .page-section-desc {
+  max-width: 70%;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  font-weight: 400;
+  word-wrap: break-word;
+  line-height: normal;
+}
 
+/* button view all  */
+.Popular_Destination .page-section-link {
+  position: absolute;
+  right: 0;
+  top: 7px;
+  font-weight: 600;
+  padding: 8px 15px;
+  display: block;
+  border-radius: 5px;
+  font-size: 13px;
+  line-height: 13px;
+  z-index: 1;
+  text-transform: uppercase;
+}
 
-
-
-
-
-
-
-
-
-
+.btn {
+  font-weight: 600;
+  border-radius: 5px;
+}
+.btn-outline-dark {
+  color: #212529;
+  border-color: #212529;
+}

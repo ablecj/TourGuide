@@ -16,20 +16,34 @@ const Home = () => {
             <p className="page-section-desc mb-0">
               Explore our popular tour packages{" "}
             </p>
-            {/* <div className="view_all_btn">
-               <a href="#" class="page-section-link btn btn-outline-dark ">
-                View All<i class="fas fa-chevron-right ms-1"></i></a>
-            </div> */}
           </div>
-          
         </div>
         {/* card row */}
         <div className="row card-items mt-5">
-          {
-            cardData.map((card)=> (
-              <TourCard key={card.id} {...card} />
-            ))
-          }
+          {cardData.map((card) => (
+            <TourCard key={card.id} {...card} />
+          ))}
+        </div>
+        <div className="view_all_btn mt-5">
+          <a href="#" className="page-section-link btn btn-outline-dark ">
+            View All<i className="fas fa-chevron-right ms-1"></i>
+          </a>
+        </div>
+      </section>
+
+      {/* Popular Destinations */}
+      <section className="container Popular_Destination">
+        <div className="page-section-header">
+          <h2 className="page-section-title">Popular Destinations </h2>
+          <p className="page-section-desc mb-0">
+            Explore our popular destinations{" "}
+          </p>
+          <a
+            href="https://www.fundayholidays.com/destinations/"
+            className="page-section-link btn btn-outline-dark "
+          >
+            View All<i className="fas fa-chevron-right ms-1"></i>
+          </a>
         </div>
       </section>
     </div>
