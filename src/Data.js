@@ -31,3 +31,91 @@ export const cardData = [
     },
     // Add more cards as needed...
   ];
+
+// owl carousel data
+export const owlCardData = [
+  {
+    id: 1,
+    image: "https://www.ekeralatourism.net/wp-content/uploads/2018/03/Alleppey.jpg",
+    title: "Explore Nature",
+    subtitle: "Discover new adventures",
+  },
+  {
+    id: 2,
+    image: "https://www.holidify.com/images/bgImages/MUNNAR.jpg",
+    title: "City Lights",
+    subtitle: "Urban exploration at its best",
+  },
+  {
+    id: 3,
+    image: "https://ihplb.b-cdn.net/wp-content/uploads/2021/09/kerala-in-october-kollam.jpg",
+    title: "Mountains High",
+    subtitle: "Breathe in the fresh air",
+  },
+  {
+    id: 4,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMizCgPIQef-EM4mnImeqOzwy46SDLymCKSA&s",
+    title: "Mountains High",
+    subtitle: "Breathe in the fresh air",
+  },
+  {
+    id: 5,
+    image: "https://www.ekeralatourism.net/wp-content/uploads/2018/03/Wayanad.jpg",
+    title: "Mountains High",
+    subtitle: "Breathe in the fresh air",
+  },
+  {
+    id: 6,
+    image: "https://www.indianluxurytrains.com/wp-content/uploads/2014/01/alappuzha-in-kerala-1.jpg",
+    title: "Mountains High",
+    subtitle: "Breathe in the fresh air",
+  },
+  {
+    id: 7,
+    image: "https://www.ekeralatourism.net/wp-content/uploads/2017/12/Vagamon.jpg",
+    title: "Mountains High",
+    subtitle: "Breathe in the fresh air",
+  },
+  {
+    id: 8,
+    image: "https://www.holidify.com/images/bgImages/VARKALA.jpg",
+    title: "Mountains High",
+    subtitle: "Breathe in the fresh air",
+  },
+  {
+    id: 9,
+    image: "https://www.stayvista.com/blog/wp-content/uploads/2024/07/omanakuttan-cr-DZMbt0ffPlA-unsplash-1024x683.jpg",
+    title: "Mountains High",
+    subtitle: "Breathe in the fresh air",
+  },
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

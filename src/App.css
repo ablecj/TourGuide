@@ -17,14 +17,22 @@ body {
 html, body {
   font-family: 'Roboto', sans-serif !important;
 }
+
+/* contaniner padding  */
+.container {
+  padding-top: 60px !important;
+  /* margin-top: 48px !important; */
+}
+
+
 /* font weight & font size */
 h2 {
-  font-weight: 700 !important; 
-  font-size: 24px !important;
+  font-weight: 700; 
+  font-size: 24px;
 }
 p {
-  font-weight: 300 !important; 
-  font-size: 18px !important;
+  font-weight: 400; 
+  font-size: 18px;
 }
 
 .small-text {
