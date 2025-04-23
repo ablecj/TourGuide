@@ -10,7 +10,7 @@ const OwlSlider = () => {
   return (
     <Swiper
       modules={[Autoplay]}
-      autoplay={{ delay: 100000 }}
+      autoplay={{ delay: 3000 }}
       loop={true}
       spaceBetween={20}
       slidesPerView={4}

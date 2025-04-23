@@ -182,6 +182,7 @@ hr:not([size]) {
     padding: calc(var(--bs-gutter-x) * .5);
     border: none !important;
     padding: 15px !important;
+    background-color: #ededed;
 } 
 
 /* includes section */

@@ -148,7 +148,7 @@ const Footer = () => {
             <span> | All rights reserved</span>
             <span> | <a href="https://www.codeaweb.com/" className="imprint">Developed by Codeaweb</a></span>
           </p>
-          <div className="text-center">
+          {/* <div className="text-center">
             <a
               href="http://www.dmca.com/Protection/Status.aspx?ID=7dfc17da-9724-469b-bc59-a8f022702e7a&refurl=https://www.fundayholidays.com/"
               target="_blank"
@@ -156,7 +156,7 @@ const Footer = () => {
             >
               DMCA PROTECTED
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

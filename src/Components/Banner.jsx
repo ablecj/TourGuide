@@ -8,8 +8,8 @@ import Banner4 from "../assets/Banner Img/Banner4.jpg";
 
 const Banner = () => {
   return (
-    <Carousel>
-      <Carousel.Item interval={5000}>
+    <Carousel pause={false}>
+      <Carousel.Item interval={100000}>
         <div className="carousel-image-wrapper">
           <img className="d-block w-100" src={Banner1} alt="First slide" />
           <div className="black-overlay"></div>
@@ -20,7 +20,7 @@ const Banner = () => {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item interval={5000}>
+      <Carousel.Item interval={100000}>
         <div className="carousel-image-wrapper">
           <img className="d-block w-100" src={Banner2} alt="Second slide" />
           <div className="black-overlay"></div>
@@ -31,7 +31,7 @@ const Banner = () => {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item interval={5000}>
+      <Carousel.Item interval={100000}>
         <div className="carousel-image-wrapper">
           <img className="d-block w-100" src={Banner3} alt="Third slide" />
           <div className="black-overlay"></div>
@@ -43,7 +43,7 @@ const Banner = () => {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={5000}>
+      <Carousel.Item interval={100000}>
         <div className="carousel-image-wrapper">
           <img className="d-block w-100" src={Banner4} alt="fourth slide" />
           <div className="black-overlay"></div>

@@ -1,13 +1,37 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../Styles/Navbar.css";
-import { Navbar, Container, Nav, NavDropdown, Offcanvas, Form, FormControl, Button } from 'react-bootstrap';
+import { Navbar, Container, Nav, Offcanvas } from 'react-bootstrap';
 
 
 const Header = () => {
+  // state to track the scroll
+  const [scrolledPast, setScrolledPast] = useState(false);
+
+  // useEffect to track the sideEffects
+  useEffect(()=> {
+    // tracking the scroll
+    const handleScroll = () => {
+      const offset =  window.scrollY;
+      if (offset > 370) {
+        setScrolledPast(true);
+      } else {
+        setScrolledPast(false);
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+    return ()=> window.removeEventListener('scroll', handleScroll);
+
+  }, [])
+
+
+
   return (
     <>
     {['lg'].map((expand) => (
-      <Navbar key={expand} expand={expand} sticky="top" className="bg-body-tertiary p-4">
+      <Navbar key={expand} expand={expand} sticky="top"  
+      className={`custom-navbar ${scrolledPast ? "navbar-transparent" : "navbar-white"} p-4`}
+      >
         <Container fluid>
           <Navbar.Brand href="/">
             <img

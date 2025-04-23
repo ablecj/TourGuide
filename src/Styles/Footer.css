@@ -82,6 +82,40 @@ a {
     list-style: none;
 }
 
+#colophon hr {
+    background: #2f2f2f;
+    opacity: 1;
+    height: 1px;
+    margin: 25px 0;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
+
+#colophon .email-sub-form {
+    padding: 10px 15px 15px;
+    margin-top: 15px;
+    background: rgba(19, 19, 19, 0.5);
+    border-radius: 4px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+#colophon .site-info .footer-copy {
+    font-size: 12px !important;
+    line-height: 15px !important;
+}
 
 
 

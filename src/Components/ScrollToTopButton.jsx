@@ -31,9 +31,13 @@ useEffect(()=> {
 
 return (
     isVisible && (
-        <button onClick={handleScrollToTop} className='scroll-to-top'>
-            <i className="fas fa-arrow-up"></i>
+        <button onClick={handleScrollToTop} id="back-to-top" title="Go to top" className="btn" >
+            <i className="fas fa-arrow-up"></i><span className="sr-only">
+                Back to Top</span>
         </button>
+        // <button onClick={handleScrollToTop} className='scroll-to-top'>
+        //     <i className="fas fa-arrow-up"></i>
+        // </button>
     )
 )
 
@@ -45,3 +49,6 @@ return (
 
 
 export default ScrollToTopButton;
+
+
+// style="display: inline-block;"

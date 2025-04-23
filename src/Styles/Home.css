@@ -25,6 +25,10 @@
   width: 50%;
   margin-left: -25%;
 }
+/* page-section */
+.page-section {
+  padding-bottom: 36px;
+}
 .page-section-desc {
   -webkit-hyphens: none;
   -moz-hyphens: none;
