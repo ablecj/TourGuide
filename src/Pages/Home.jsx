@@ -7,7 +7,7 @@ import OwlSlider from "../Components/OwlSlider";
 
 const Home = () => {
   return (
-    <div>
+    <div >
       <Banner />
       {/* popular section */}
       {/* <section className="container popularSection font_family">
@@ -31,7 +31,7 @@ const Home = () => {
           </a>
         </div>
       </section> */}
-      <section className="container popularSection font_family">
+      <section className="container-fluid pt-section  popularSection font_family">
         <div className="popular_section_container">
           <div className="popularSectionHeading d-flex justify-content-between align-items-center flex-wrap gap-2">
             <div>
@@ -57,7 +57,7 @@ const Home = () => {
       </section>
 
       {/* Popular Destinations */}
-      <section className="container Popular_Destination">
+      <section className="container-fluid pt-section  Popular_Destination">
         <div className="page-section-header">
           <h2 className="page-section-title">Popular Destinations </h2>
           <p className="page-section-desc mb-0">
@@ -76,7 +76,7 @@ const Home = () => {
         </div>
       </section>
       {/* about section */}
-      <section className="container page-section">
+      <section className="container-fluid   page-section">
       {/* <div className="entry-header sr-only">
         <h2 className="entry-title page-section-title mb-2 text-start">
           Funday Holidays

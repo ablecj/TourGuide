@@ -1,3 +1,5 @@
+/* popularSection */
+
 /* popularSectionHeading */
 .popularSectionHeading {
   margin-bottom: 25px;
@@ -27,7 +29,7 @@
 }
 /* page-section */
 .page-section {
-  padding-bottom: 36px;
+  padding: 60px 24px 60px 24px;
 }
 .page-section-desc {
   -webkit-hyphens: none;
@@ -58,7 +60,7 @@
 
 /* popular destinations   .Popular_Destination */
 /* .Popular_Destination {
-  margin-top: 60px;
+  padding:  24px;
 } */
 
 .Popular_Destination .page-section-header {

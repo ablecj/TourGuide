@@ -56,7 +56,8 @@ const Header = () => {
               <Nav className="ms-auto pe-3">
                 <Nav.Link href="/" className="Nav_link">Home</Nav.Link>
                 <Nav.Link href="#About" className="Nav_link">About</Nav.Link>
-                <Nav.Link href="#Services" className="Nav_link">Services</Nav.Link>
+                <Nav.Link href="#Tourpackages" className="Nav_link">Tour Packages</Nav.Link>
+                <Nav.Link href="#Destinations" className="Nav_link">Destinations</Nav.Link>
                 <Nav.Link href="#Contact" className="Nav_link">Contact Us</Nav.Link>
               </Nav>
             </Offcanvas.Body>
