@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../Styles/Navbar.css";
 import { Navbar, Container, Nav, Offcanvas } from 'react-bootstrap';
+import Logo from '../assets/Logo/travelinds_logo_resized.png';
 
 
 const Header = () => {
@@ -35,9 +36,9 @@ const Header = () => {
         <Container fluid>
           <Navbar.Brand href="/">
             <img
-              // src={logo}
+              src={Logo}
               alt="Logo"
-              height="30"
+              height="50"
               className="d-inline-block align-top"
             />
           </Navbar.Brand>
@@ -55,7 +56,7 @@ const Header = () => {
             <Offcanvas.Body>
               <Nav className="ms-auto pe-3">
                 <Nav.Link href="/" className="Nav_link">Home</Nav.Link>
-                <Nav.Link href="#Popular_Tour" className="Nav_link">Tour Packages</Nav.Link>
+                <Nav.Link href="/TourPackage" className="Nav_link">Tour Packages</Nav.Link>
                 <Nav.Link href="#Destinations" className="Nav_link">Destinations</Nav.Link>
                 <Nav.Link href="#About" className="Nav_link">About</Nav.Link>
                 <Nav.Link href="/Contact" className="Nav_link">Contact Us</Nav.Link>

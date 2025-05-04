@@ -1,0 +1,119 @@
+
+.Details_page {
+    width: 100%;
+    height: auto;
+    /* padding: 0 24px; */
+}
+
+.img-fluid {
+    width: 100%;
+    max-height: 600px !important;
+    object-fit: cover !important;
+}
+
+/* Detail_Tilte */
+.Detail_Title {
+    padding: 0 24px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--text-color);
+    letter-spacing: -0.01px;
+    margin-bottom: 8px;
+    display: inline-block;
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.Detail_Title::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 2px;
+    left: 50%;
+    background: var(--secondary-shades);
+    width: 50%;
+    margin-left: -25%;
+}
+/* Detail_Para */
+.Detail_Para {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: normal;
+    max-width: 100%;
+    padding: 0 24px;
+    width: fit-content;
+    margin-bottom: 24px;
+    margin-top: 18px;
+}
+
+.Tour_plan_Title {
+    padding: 0 24px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--text-color);
+    letter-spacing: -0.01px;
+    margin-bottom: 8px;
+    display: inline-block;
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.Tour_plan_Title::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 2px;
+    left: 50%;
+    background: var(--secondary-shades);
+    width: 50%;
+    margin-left: -25%;
+}
+
+/* list-group */
+.list-group {
+    padding-bottom: 48px;
+   
+}
+/* list-group-item */
+.details_itenary {
+    padding: 24px;
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: normal;
+    width: 100% !important;
+    font-size: 18px;
+    
+}
+.Details_day {
+    padding: 0 24px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--text-color);
+    letter-spacing: -0.01px;
+    margin-bottom: 8px;
+    display: inline-block;
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+

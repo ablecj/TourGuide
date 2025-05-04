@@ -196,6 +196,7 @@ hr:not([size]) {
     font-size: 14px;
     text-transform: uppercase;
     display: block;
+    padding: 12px !important;
 }
 .card-item-col .card .btn-tour {
     color: #FFF;

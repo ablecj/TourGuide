@@ -11,27 +11,6 @@ const Home = () => {
     <div>
       <Banner />
       {/* popular section */}
-      {/* <section className="container popularSection font_family">
-        <div className="popular_section_container">
-          <div className="popularSectionHeading">
-            <h2 className="popularSection_title">Popular Tour packages</h2>
-            <p className="page-section-desc mb-0">
-              Explore our popular tour packages{" "}
-            </p>
-          </div>
-        </div>
-        card row
-        <div className="row card-items mt-5">
-          {cardData.map((card) => (
-            <TourCard key={card.id} {...card} />
-          ))}
-        </div>
-        <div className="view_all_btn mt-5">
-          <a href="#" className="page-section-link btn btn-outline-dark ">
-            View All<i className="fas fa-chevron-right ms-1"></i>
-          </a>
-        </div>
-      </section> */}
       <section
         id="Popular_Tour"
         className="container-fluid pt-section  popularSection font_family"
@@ -48,7 +27,7 @@ const Home = () => {
               View All<i className="fas fa-chevron-right ms-1"></i>
             </a> */}
             <Link
-              to="/popular-tours"
+              to="/TourPackage"
               className="page-section-link btn btn-outline-dark"
             >
               View All<i className="fas fa-chevron-right ms-1"></i>
@@ -58,9 +37,9 @@ const Home = () => {
 
         {/* card row */}
         <div className="row card-items mt-5">
-          {cardData.map((card) => (
+          {cardData.slice(0, 6).map((card) => (
             <TourCard key={card.id} {...card} />
-          ))}
+           ))}
         </div>
       </section>
 
