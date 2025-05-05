@@ -19,49 +19,49 @@ const Footer = () => {
                   </li>
                   <li className="phone my-3">
                     <i className="fas fa-phone-alt me-2"></i>
-                    <a href="tel:+919847151979">+91 984715 1979</a>,{' '}
-                    <a href="tel:+919656913336">+91 9656 91 3336</a>
+                    <a href="tel:+916238888326">+91 6238888326</a>,{' '}
+                    {/* <a href="tel:+919656913336">+91 9656 91 3336</a> */}
                   </li>
-                  <li className="email">
+                  {/* <li className="email">
                     <i className="fas fa-envelope me-2"></i>
                     <a href="mailto:info@fundayholidays.com">info@fundayholidays.com</a>
-                  </li>
+                  </li> */}
                 </ul>
 
                 {/* Social Links */}
                 <ul className="social-links nav mb-3">
                   <li className="nav-item">
-                    <a href="https://www.facebook.com/fundayholidays/" className="nav-link" target="_blank" rel="noreferrer">
+                    <a href="#"  className="nav-link" target="_blank" rel="noreferrer">
                       <i className="fab fa-facebook-square"></i>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="https://twitter.com/FundayHolidays" className="nav-link" target="_blank" rel="noreferrer">
+                    <a href="#"  className="nav-link" target="_blank" rel="noreferrer">
                       <i className="fab fa-twitter"></i>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="https://www.instagram.com/fundayholidays/" className="nav-link" target="_blank" rel="noreferrer">
+                    <a href="#"  className="nav-link" target="_blank" rel="noreferrer">
                       <i className="fab fa-instagram"></i>
                     </a>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a href="https://in.pinterest.com/fundayholidays/" className="nav-link" target="_blank" rel="noreferrer">
                       <i className="fab fa-pinterest"></i>
                     </a>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
-                    <a href="https://in.linkedin.com/pub/funday-holidays/ab/b12/718/" className="nav-link" target="_blank" rel="noreferrer">
+                    <a href="#"  className="nav-link" target="_blank" rel="noreferrer">
                       <i className="fab fa-linkedin"></i>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="https://www.youtube.com/channel/UCj08BRJtexeusZ9vVfoZiMg" className="nav-link" target="_blank" rel="noreferrer">
+                    <a href="#" className="nav-link" target="_blank" rel="noreferrer">
                       <i className="fab fa-youtube"></i>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="https://wa.me/919847151979" className="nav-link" target="_blank" rel="noreferrer">
+                    <a href="https://wa.me/+916238888326" className="nav-link" target="_blank" rel="noreferrer">
                       <i className="fab fa-whatsapp"></i>
                     </a>
                   </li>
@@ -70,36 +70,27 @@ const Footer = () => {
             </div>
 
             {/* Useful Links + Destinations */}
-            <div className="col-md-8">
+            <div className="col-md-4">
               <div className="row">
-                <div className="col-md-6">
+                <div className="col-8">
                   <div className="footer-col">
                     <h4 className="footer-col-title">Useful Links</h4>
                     <ul className="footer-col-nav nav flex-row mb-3">
                       {[
                         ["Home", "/"],
-                        ["Tours", "/tours"],
-                        ["Holiday Packages", "/packages"],
-                        ["Holiday Destinations", "/destinations"],
-                        ["About Us", "/about-us"],
-                        ["Blog", "/blog"],
-                        ["Photo Galleries", "/gallery"],
-                        ["Vehicle Rentals", "/services/vehicle-rentals"],
-                        ["Houseboat Booking", "/services/house-boats-backwater-tourism-in-kerala"],
-                        ["Contact Us", "/contact-us"],
-                        ["Careers", "/careers"],
-                        ["Privacy Policy", "/privacy-policy"],
-                        ["Tour Booking Policy", "/tour-booking-policy"]
+                        ["Tour Packages", "/TourPackage"],
+                        ["Contact Us", "/ContactUs"]
+                       
                       ].map(([text, url], index) => (
                         <li className="nav-item" key={index}>
-                          <a href={`https://www.fundayholidays.com${url}`} className="nav-link">{text}</a>
+                          <a href={`${url}`} className="nav-link">{text}</a>
                         </li>
                       ))}
                     </ul>
                   </div>
                 </div>
 
-                <div className="col-md-6">
+                {/* <div className="col-md-6">
                   <div className="footer-col">
                     <h4 className="footer-col-title">Top Destinations</h4>
                     <ul className="footer-col-nav nav flex-row mb-3">
@@ -119,11 +110,11 @@ const Footer = () => {
                       ))}
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               {/* Subscription Form */}
-              <div className="email-sub-form">
+              {/* <div className="email-sub-form">
                 <p>Get Latest Deals, Upcoming Offers and Travel Guides</p>
                 <form action="https://fundayholidays.us4.list-manage.com/subscribe/post" method="post">
                   <input type="hidden" name="u" value="8ab65d2d49e9af5cf82fc8582" />
@@ -135,7 +126,12 @@ const Footer = () => {
                     <button type="submit" className="btn btn-secondary" name="subscribe">Subscribe</button>
                   </div>
                 </form>
-              </div>
+              </div> */}
+            </div>
+
+            {/* map */}
+            <div className="col-4">
+              
             </div>
           </div>
         </div>

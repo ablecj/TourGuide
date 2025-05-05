@@ -7,6 +7,7 @@ import Footer from './Components/Footer';
 import WhatsAppIcon from './Components/WhatsAppIcon ';
 import CardDetail from './Components/CardDetail';
 import TourPackage from './Pages/TourPackage';
+import DestinationDetails from './Components/DestinationDetails';
 
 function App() {
 
@@ -18,6 +19,9 @@ function App() {
         <Route path='/' element={<Home />}/>
         <Route path='/TourPackage' element={<TourPackage />} />
         <Route path="/tour/:id" element={<CardDetail />} />
+
+        {/* destination */}
+        <Route path="/destination/:id" element={<DestinationDetails />} />
 
       </Routes>
       {/* whatsapp icon  */}
