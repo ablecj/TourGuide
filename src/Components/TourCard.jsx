@@ -62,7 +62,7 @@ const TourCard = ({
               ))}
             </span>
           </div>
-          <h3 className="card-title m-0">5 Nights 6 Days Kerala Package</h3>
+          <h3 className="card-title m-0">{title}</h3>
         </div>
         <div className="card-footer">
           <hr className="mt-0" />

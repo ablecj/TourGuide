@@ -8,6 +8,7 @@ import WhatsAppIcon from './Components/WhatsAppIcon ';
 import CardDetail from './Components/CardDetail';
 import TourPackage from './Pages/TourPackage';
 import DestinationDetails from './Components/DestinationDetails';
+import ContactForm from './Pages/Contact';
 
 function App() {
 
@@ -22,6 +23,9 @@ function App() {
 
         {/* destination */}
         <Route path="/destination/:id" element={<DestinationDetails />} />
+
+        {/* contact us */}
+        <Route path='/contact' element={<ContactForm />} />
 
       </Routes>
       {/* whatsapp icon  */}

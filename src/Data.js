@@ -13,32 +13,37 @@ export const cardData = [
       {
         day: "Day 1",
         description:
-          "Arrival and transfer to Munnar via Cheeyappara and Valara waterfalls. Visit Munnar Tea Museum or explore tea plantations. Stay at Munnar.",
+          "Upon your arrival, you will be warmly welcomed and transferred to Munnar, a picturesque hill station nestled in the Western Ghats. The scenic drive to Munnar takes approximately four hours, with en route stops at the beautiful Cheeyappara and Valara waterfalls, offering perfect photo opportunities. Once in Munnar, you can explore the renowned Munnar Tea Museum or stroll through lush tea plantations to experience the region’s rich tea heritage. Afterward, check in to your hotel and unwind. Enjoy a relaxing evening and a comfortable overnight stay at your hotel in Munnar.",
       },
       {
         day: "Day 2",
         description:
-          "Full-day Munnar sightseeing: Mattupetty Dam, Kundala Dam, Echo Point, Photo Point, and Eravikulam National Park. Stay at Munnar.",
+          "After breakfast, set out on a full-day sightseeing tour to explore the captivating beauty of Munnar. Visit popular attractions including Mattupetty Dam, Kundala Dam, Echo Point, and Photo Point—each offering stunning views and photo-worthy landscapes.You may also visit Eravikulam National Park, home to the endangered Nilgiri Tahr and known for its rich biodiversity and scenic trails. After a delightful day immersed in nature, return to your hotel and enjoy a peaceful overnight stay in Munnar.",
       },
       {
         day: "Day 3",
         description:
-          "Drive to Thekkady. Visit Periyar Wildlife Sanctuary and enjoy boat ride. Optional activities: spice plantation tour, elephant ride, Kathakali, or jeep safari. Stay at Thekkady.",
+          "After breakfast, check out from the hotel and proceed to Thekkady, enjoying a scenic drive through the lush landscapes of the Western Ghats. Upon arrival, check in to your hotel and take some time to relax. In the afternoon, visit the renowned Periyar Wildlife Sanctuary and embark on a serene boat ride across Periyar Lake, where you may spot elephants, deer, and other wildlife in their natural habitat.",
       },
       {
         day: "Day 4",
         description:
-          "Drive to Vagamon. Explore Pine Forest, Vagamon Lake, and meadows. Stay at Vagamon.",
+          "After breakfast, check out from the hotel and proceed to Alleppey. Upon arrival, check in to your houseboat and set sail on a scenic cruise through the serene backwaters. As you drift along the tranquil lake, soak in the picturesque landscapes of lush paddy fields, swaying coconut palms, and charming village life.",
       },
       {
         day: "Day 5",
         description:
-          "Transfer to Alleppey. Check into houseboat and enjoy backwater cruise with traditional meals. Stay at Alleppey Houseboat.",
+          "After breakfast, check out from the hotel and proceed to Trivandrum, visiting the Jatayu Earth Centre en route—a unique adventure park featuring the world's largest bird sculpture, cable car rides, adventure zones, and panoramic hilltop views—before continuing to Trivandrum for an overnight stay.",
       },
       {
         day: "Day 6",
         description:
-          "Drive to Cochin. Sightseeing: Marine Drive, Fort Kochi, Chinese fishing nets, Mattancherry Palace, Jew Town, and Lulu Mall. Departure transfer.",
+          "After breakfast, proceed for a full day of sightseeing in Trivandrum, the capital city of Kerala known for its rich heritage and serene charm. Begin with a visit to the Azhimala Shiva Temple, perched on a cliff with breathtaking views of the Arabian Sea. Continue to the iconic Sree Padmanabhaswamy Temple, famed for its intricate architecture and spiritual significance. ",
+      },
+      {
+        day: "Day 7",
+        description:
+          "After breakfast, check out from the hotel and head to Lulu Mall, one of the largest and most popular shopping destinations in Kerala. Enjoy some leisure time exploring a wide range of branded outlets, local products, and delicious food options-perfect for picking up souvenirs or enjoying a final treat before departure. Later, you will be dropped off at Trivandrum Railway Station or Airport as per your onward travel plans. Wishing you a safe, comfortable, and memorable journey ahead ",
       },
     ],
   },
@@ -46,7 +51,7 @@ export const cardData = [
     id: 2,
     image:
       "https://www.fundayholidays.com/wp-content/uploads/2019/12/munnar-thekkady-tour-packages-350x350.jpg",
-    title: "5 Nights 6 Days Manali Adventure",
+    title: "6 Nights 7 Days Spiti Valley Tour via Shimla",
     days: 6,
     nights: 5,
     stars: 4,
@@ -56,76 +61,67 @@ export const cardData = [
       {
         day: "Day 1",
         description:
-          "Arrive in Delhi and board an overnight Volvo to Manali. Scenic journey through the hills.",
+          "On the first day of your itinerary, arrive in Delhi by air or train, proceed to the designated boarding point for your overnight Volvo bus to Shimla (departing between 9:00 PM and 11:00 PM), and embark on an 8 to 11-hour journey to reach Shimla the next morning, refreshed and ready to begin your adventure.",
       },
       {
         day: "Day 2",
         description:
-          "Arrive in Manali. Visit Hadimba Temple, Tibetan Monastery, Van Vihar, and Mall Road. Stay at Manali.",
+          "Arrive in Shimla, the gateway to your Himalayan adventure. From here, begin your scenic road journey to Kalpa, passing through the breathtaking landscapes of the Kinnaur Valley. Along the way, soak in mesmerizing views of terraced hillsides, winding rivers, and snow-capped peaks. Upon reaching Kalpa—a charming village famed for its spectacular vistas of the Kinnaur Kailash range—check in to your designated accommodation. Unwind and enjoy a delicious dinner as you settle in for a peaceful night amidst the mountains.",
       },
       {
         day: "Day 3",
         description:
-          "Excursion to Solang Valley and Atal Tunnel. Visit Sissu village. Stay at Manali.",
+          "After breakfast, embark on a breathtaking journey from Kalpa to Kaza, traversing the dramatic landscapes of Kinnaur and Spiti Valleys. En route, take a break at Nako, a serene high-altitude village known for its tranquil Nako Lake and centuries-old monasteries nestled amidst rugged mountains. Continue onwards to Tabo, where you'll visit the historic Tabo Monastery—one of the oldest and most revered Buddhist monasteries in the Himalayas, often referred to as the ‘Ajanta of the Himalayas.’ Upon reaching Kaza, check in to your hotel or cozy homestay and relax for the evening in this high-altitude desert town.",
       },
       {
         day: "Day 4",
         description:
-          "Day trip to Kothi and Gulaba. Scenic views and relaxation. Stay at Manali.",
+          "After breakfast, set out to explore the high-altitude wonders surrounding Kaza, home to some of the world’s highest inhabited villages. Begin with a visit to Komik, the highest village connected by a motorable road, famously referred to as the 'Eye of a Snow Cock.' Enjoy panoramic views of the snow-capped Himalayas that surround this remote gem. Continue to Hikkim, where you’ll find the World’s Highest Post Office—take a moment to send a postcard to loved ones from this extraordinary spot. Next, head to Langza, a village steeped in history and home to the ancient Lang Temple, believed to be over 1,000 years old. As the day winds down, return to your homestay in Kaza or choose to stay overnight in one of the villages—Komik, Hikkim, or Langza—for an immersive local experience. Enjoy a warm, home-cooked dinner and rest under the starlit Himalayan skyStay at Komic.",
       },
       {
         day: "Day 5",
         description:
-          "Visit Naggar Castle and Kullu. Optional: River rafting and paragliding. Return to Delhi by Volvo.",
+          "After breakfast, depart from Kaza and begin your day with a visit to the iconic Key Monastery. Perched dramatically on a hilltop, this ancient Tibetan Buddhist monastery offers profound spiritual insight and panoramic views of the Spiti Valley. Continue to Kibber, one of the world’s highest inhabited villages at 4,270 meters (14,010 ft), known for its stark beauty and unique high-altitude lifestyle. From there, head to the remarkable Chicham Bridge—the highest bridge in Asia—where you can marvel at the engineering feat and take in awe-inspiring views of the gorge below. Afterward, proceed toward Tabo or Nako Village. Enjoy a warm dinner and overnight stay at your homestay. Stay at Tabo",
       },
-      { day: "Day 6", description: "Arrive in Delhi. End of tour." },
+      { day: "Day 6",
+        description: "Begin the final leg of your journey early in the morning as you depart from Tabo/Nako towards Shimla. The drive takes approximately 12 to 14 hours, including scenic breaks along the way. Arrive in Shimla by evening and head to the Volvo bus stand for your overnight departure to Delhi, carrying with your unforgettable memories of the majestic Himalayas." },
     ],
   },
   {
     id: 3,
     image:
       "https://www.fundayholidays.com/wp-content/uploads/2019/12/munnar-thekkady-tour-packages-350x350.jpg",
-    title: "6 Nights 7 Days Spiti Valley Tour via Shimla",
-    days: 7,
-    nights: 6,
+    title: "3N & 4D Kothi Gulaba",
+    days: 4,
+    nights: 3,
     stars: 4,
     description:
-      "Explore the remote Himalayan beauty of Spiti Valley through Kalpa, Kaza, and ancient villages.",
+      "3N & 4D Kothi Gulaba.",
     itenary: [
       {
         day: "Day 1",
         description:
-          "Arrive in Delhi and board your overnight Volvo bus to Shimla (departure between 9:00 PM and 11:00 PM). Overnight journey to the hills.",
+          "Your journey begins as you arrive in Delhi, either by flight or train, based on your convenience. Upon arrival, proceed to the designated boarding point for your overnight Volvo bus to Manali. The bus is scheduled to depart between 5:30 PM and 9:00 PM, giving you ample time to settle in. Sit back and relax as you embark on a scenic overnight drive through the northern plains and into the majestic hills of Himachal Pradesh. The journey takes approximately 10 to 14 hours, and you'll arrive in Manali the next morning—refreshed, rejuvenated, and ready to dive into your Himalayan adventure.",
       },
       {
         day: "Day 2",
         description:
-          "Arrive in Shimla and drive to Kalpa through the scenic Kinnaur Valley. Check in and enjoy dinner. Stay at Kalpa.",
+          "Arrive at the Manali Volvo station in the morning, where a comfortable transfer will be waiting to escort you to your pre-booked hotel. Check in and take a moment to freshen up before setting out to explore the charming hill town. In the afternoon, begin your sightseeing with a visit to the Hadimba Devi Temple, an ancient shrine renowned for its distinctive wooden architecture and peaceful surroundings nestled among cedar forests. Continue to the serene Gadhan Thekchoking Gompa, a Tibetan Monastery where colourful murals and prayer wheels offer a glimpse into the spiritual richness of Tibetan Buddhism.",
       },
       {
         day: "Day 3",
         description:
-          "Travel from Kalpa to Kaza via Nako and Tabo. Visit Nako Lake and the historic Tabo Monastery. Stay at Kaza.",
+          "After a hearty breakfast at your hotel, set out for an exciting day trip to Solang Valley—an adventurer’s paradise nestled amidst the majestic Himalayan peaks. Upon arrival, soak in the stunning alpine scenery and choose from a wide array of thrilling activities (optional and at your own expense), including paragliding, ziplining, skiing, horse riding, zorbing, ropeway rides, and more. Whether you're a thrill-seeker or a nature lover, Solang Valley offers something for everyone.",
       },
       {
         day: "Day 4",
         description:
-          "Explore high-altitude villages Komik, Hikkim (highest post office), and Langza. Stay at Komik.",
+          "Begin your day with a hearty breakfast at the hotel, fueling up for a scenic and serene day of exploration. Set off for Kothi and Gulaba, two picturesque hamlets nestled in the foothills of the Himalayas, located along the route to the famous Rohtang Pass. These charming spots offer breathtaking views of snow-capped peaks, deep valleys, and meandering rivers—perfect for nature lovers and photography enthusiasts alike. Spend some peaceful moments amidst the alpine beauty, soaking in the crisp mountain air.",
       },
       {
         day: "Day 5",
         description:
-          "Visit Key Monastery, Kibber, and Chicham Bridge. Proceed to Tabo or Nako. Stay at Tabo.",
-      },
-      {
-        day: "Day 6",
-        description:
-          "Drive from Tabo/Nako to Shimla. Arrive in Shimla and board Volvo to Delhi.",
-      },
-      {
-        day: "Day 7",
-        description:
-          "Arrive in Delhi with unforgettable memories of Spiti Valley.",
+          "After enjoying a delicious breakfast, check out from your hotel and get ready for the final day of your memorable Himachal journey. Begin with a visit to the historic Naggar Castle, a centuries-old fort that has been beautifully transformed into a heritage hotel. Explore its stunning architecture, wooden carvings, and soak in the sweeping views of the Kullu Valley from its elevated vantage point. Next, drive to the scenic town of Kullu, renowned for its lush green valleys and majestic Himalayan backdrop. Pay a visit to the revered Vaishno Devi Temple, nestled amidst peaceful surroundings and offering a spiritual retreat.",
       },
     ],
   },
@@ -133,37 +129,36 @@ export const cardData = [
     id: 4,
     image:
       "https://www.fundayholidays.com/wp-content/uploads/2019/12/munnar-thekkady-tour-packages-350x350.jpg",
-    title: "5 Nights 6 Days Kerala Package",
-    days: 6,
-    nights: 5,
+    title: "5D & 4N Munnar Allapy.",
+    days: 5,
+    nights: 4,
     stars: 4,
-    description: "Explore Munnar, Thekkady, Alleppey, and Cochin in 6 days.",
+    description: "Explore Munnar, Thekkady, Alleppey, and Cochin in 5 days.",
     itenary: [
       {
         day: "Day 1",
         description:
-          "Arrival, drive to Munnar with waterfall stops. Visit Tea Museum or plantations.",
+          "Upon your arrival, you will be warmly welcomed and transferred to Munnar, a picturesque hill station nestled in the Western Ghats. The scenic drive to Munnar takes approximately four hours, with en route stops at the beautiful Cheeyappara and Valara waterfalls, offering perfect photo opportunities. Once in Munnar, you can explore the renowned Munnar Tea Museum or stroll through lush tea plantations to experience the region’s rich tea heritage. Afterward, check in to your hotel and unwind. Enjoy a relaxing evening and a comfortable overnight stay at your hotel in Munnar.",
       },
       {
         day: "Day 2",
         description:
-          "Sightseeing: Mattupetty Dam, Kundala Dam, Echo Point, Photo Point, Eravikulam National Park.",
+          "After breakfast, set out on a full-day sightseeing tour to explore the captivating beauty of Munnar. Visit popular attractions including Mattupetty Dam, Kundala Dam, Echo Point, and Photo Point—each offering stunning views and photo-worthy landscapes.You may also visit Eravikulam National Park, home to the endangered Nilgiri Tahr and known for its rich biodiversity and scenic trails.",
       },
       {
         day: "Day 3",
         description:
-          "Drive to Thekkady. Visit Periyar Wildlife Sanctuary, boat ride.",
+          "After breakfast, check out from the hotel and proceed to Thekkady, enjoying a scenic drive through the lush landscapes of the Western Ghats. Upon arrival, check in to your hotel and take some time to relax. In the afternoon, visit the renowned Periyar Wildlife Sanctuary and embark on a serene boat ride across Periyar Lake, where you may spot elephants, deer, and other wildlife in their natural habitat.",
       },
       {
         day: "Day 4",
-        description: "Houseboat cruise in Alleppey with onboard meals.",
+        description: "After breakfast, check out from the hotel and proceed to Alleppey. Upon arrival, check in to your houseboat and set sail on a scenic cruise through the serene backwaters. As you drift along the tranquil lake, soak in the picturesque landscapes of lush paddy fields, swaying coconut palms, and charming village life. Enjoy a delightful onboard experience with a traditional Kerala lunch, followed by evening tea and snacks. Later, savor a delicious dinner while embracing the peaceful ambiance of the backwaters. Unwind and enjoy an overnight stay in your beautifully appointed houseboat.",
       },
       {
         day: "Day 5",
         description:
-          "Cochin sightseeing: Marine Drive, Fort Kochi, Mattancherry Palace, Jew Town, Lulu Mall.",
+          "After breakfast, check out from the houseboat and proceed to Cochin. Begin your city tour with a visit to Marine Drive, offering beautiful views of the serene backwaters. Continue to Fort Kochi, where you can witness the iconic Chinese fishing nets, followed by a visit to the Mattancherry Palace and the historic Jew Town, known for its charming streets and antique shops. Stop by Lulu Mall for some last-minute shopping or a delightful dining experience. Based on your departure schedule, you will be transferred to Cochin International Airport or the railway station for your onward journey. Bid farewell to Kerala, taking home cherished memories of a truly unforgettable trip. Safe travels!",
       },
-      { day: "Day 6", description: "Departure transfer." },
     ],
   },
   {
@@ -174,19 +169,19 @@ export const cardData = [
     days: 4,
     nights: 3,
     stars: 5,
-    description: "Munnar and Alleppey with Cochin highlights.",
+    description: "Experience the natural beauty and cultural richness of Kerala with this thoughtfully curated 4-day journey. Begin your adventure with a scenic drive to Munnar, a picturesque hill station known for its misty mountains, lush tea gardens, and cascading waterfalls like Cheeyappara and Valara. Enjoy visits to iconic spots such as the Munnar Tea Museum, Mattupetty Dam, Echo Point, and the biodiversity-rich Eravikulam National Park. Continue your trip with a unique stay on a traditional houseboat in Alleppey, cruising through Kerala’s peaceful backwaters lined with coconut palms and paddy fields. Relish freshly prepared local cuisine onboard while soaking in the serene village life.",
     itenary: [
       {
         day: "Day 1",
         description:
-          "Drive to Munnar via waterfalls. Visit Tea Museum or gardens.",
+          "Upon your arrival, you will be warmly welcomed and transferred to Munnar, a picturesque hill station nestled in the Western Ghats. The scenic drive to Munnar takes approximately four hours, with en route stops at the beautiful Cheeyappara and Valara waterfalls, offering perfect photo opportunities",
       },
       {
         day: "Day 2",
-        description: "Munnar sightseeing: Dams, Echo Point, Eravikulam Park.",
+        description: "After breakfast, set out on a full-day sightseeing tour to explore the captivating beauty of Munnar. Visit popular attractions including Mattupetty Dam, Kundala Dam, Echo Point, and Photo Point—each offering stunning views and photo-worthy landscapes.You may also visit Eravikulam National Park, home to the endangered Nilgiri Tahr and known for its rich biodiversity and scenic trails.",
       },
-      { day: "Day 3", description: "Alleppey houseboat cruise with meals." },
-      { day: "Day 4", description: "Cochin sightseeing and departure." },
+      { day: "Day 3", description: "After breakfast, check out from the hotel and proceed to Alleppey. Upon arrival, check in to your houseboat and set sail on a scenic cruise through the serene backwaters. As you drift along the tranquil lake, soak in the picturesque landscapes of lush paddy fields, swaying coconut palms, and charming village life. Enjoy a delightful onboard experience with a traditional Kerala lunch, followed by evening tea and snacks. Later, savor a delicious dinner while embracing the peaceful ambiance of the backwaters. Unwind and enjoy an overnight stay in your beautifully appointed houseboat." },
+      { day: "Day 4", description: "After breakfast, check out from the houseboat and proceed to Cochin for a city tour that includes Marine Drive, Fort Kochi with its iconic Chinese fishing nets, Mattancherry Palace, historic Jew Town, and Lulu Mall for shopping or dining, before being transferred to Cochin International Airport or the railway station for your onward journey, bidding farewell to Kerala with cherished memories of an unforgettable trip." },
     ],
   },
   {
@@ -202,14 +197,14 @@ export const cardData = [
       {
         day: "Day 1",
         description:
-          "Transfer to Munnar via waterfalls. Visit Tea Museum or plantations.",
+          "Upon arrival, you will be warmly welcomed and transferred to Munnar, a picturesque hill station in the Western Ghats, with a scenic four-hour drive featuring stops at Cheeyappara and Valara waterfalls for photo opportunities, followed by visits to the Munnar Tea Museum or tea plantations to explore the region’s rich tea heritage, before checking in to your hotel for a relaxing evening and an overnight stay.",
       },
       {
         day: "Day 2",
         description:
-          "Munnar sightseeing: Mattupetty Dam, Echo Point, Kundala Dam, Eravikulam National Park.",
+          "After breakfast, embark on a full-day sightseeing tour of Munnar, visiting popular attractions such as Mattupetty Dam, Kundala Dam, Echo Point, and Photo Point—each offering breathtaking views—along with a visit to Eravikulam National Park, home to the endangered Nilgiri Tahr, before returning to your hotel for a peaceful overnight stay.",
       },
-      { day: "Day 3", description: "Cochin sightseeing and departure." },
+      { day: "Day 3", description: "After breakfast, check out from the hotel and proceed to Cochin for a city tour that includes Marine Drive with its serene backwater views, the iconic Chinese fishing nets at Fort Kochi, a visit to Mattancherry Palace and the historic Jew Town known for its charming streets and antique shops, a stop at Lulu Mall for shopping or dining, and finally, based on your departure schedule, a transfer to Cochin International Airport or the railway station, bidding farewell to Kerala with cherished memories of an unforgettable trip." },
     ],
   },
   {
@@ -222,15 +217,15 @@ export const cardData = [
     stars: 4,
     description: "Short trip through Alleppey and Cochin.",
     itenary: [
-      { day: "Day 1", description: "Alleppey houseboat cruise with meals." },
-      { day: "Day 2", description: "Cochin sightseeing and departure." },
+      { day: "Day 1", description: "Upon arrival, you’ll be warmly welcomed and driven to Alleppey, the Venice of the East, where you'll board a traditional Kerala houseboat for a serene cruise through picturesque backwaters lined with lush paddy fields, swaying coconut palms, and vibrant village life, enjoying authentic Kerala-style lunch and dinner freshly prepared on board, before spending a peaceful and unforgettable night gently floating beneath a canopy of stars." },
+      { day: "Day 2", description: "After breakfast, check out from the hotel and proceed to Cochin for a city tour that includes Marine Drive with its serene backwater views, the iconic Chinese fishing nets at Fort Kochi, a visit to Mattancherry Palace and the historic Jew Town with its charming streets and antique shops, a stop at Lulu Mall for last-minute shopping or dining, and finally, a transfer to Cochin International Airport or the railway station based on your departure schedule, bidding farewell to Kerala with cherished memories of an unforgettable trip." },
     ],
   },
   {
     id: 8,
     image:
       "https://www.fundayholidays.com/wp-content/uploads/2019/12/munnar-thekkady-tour-packages-350x350.jpg",
-    title: "4 Nights 5 Days Munnar, Thekkady & Alleppey",
+    title: "5 Nights 6 Days Munnar, Thekkady & Alleppey",
     days: 5,
     nights: 4,
     stars: 5,
@@ -238,20 +233,43 @@ export const cardData = [
     itenary: [
       {
         day: "Day 1",
-        description: "Drive to Munnar via waterfalls. Visit Tea Museum.",
+        description: "Upon arrival, you will be warmly welcomed and transferred to Munnar, a picturesque hill station in the Western Ghats, enjoying a scenic four-hour drive with stops at Cheeyappara and Valara waterfalls for photo opportunities, followed by a visit to the Munnar Tea Museum or a stroll through lush tea plantations to experience the region’s rich tea heritage, before checking in to your hotel for a relaxing evening and a comfortable overnight stay.",
       },
       {
         day: "Day 2",
         description:
-          "Munnar sightseeing: Mattupetty Dam, Echo Point, Kundala Dam, Eravikulam Park.",
+          "After breakfast, embark on a full-day sightseeing tour to explore the captivating beauty of Munnar, visiting popular attractions such as Mattupetty Dam, Kundala Dam, Echo Point, and Photo Point—each offering stunning views and picturesque landscapes—followed by a visit to Eravikulam National Park, home to the endangered Nilgiri Tahr and known for its rich biodiversity and scenic trails, before returning to your hotel for a peaceful overnight stay in Munnar.",
       },
       {
         day: "Day 3",
         description:
-          "Drive to Thekkady. Visit Periyar Sanctuary and enjoy optional cultural activities.",
+          "After breakfast, check out from the hotel and proceed to Thekkady, enjoying a scenic drive through the lush landscapes of the Western Ghats; upon arrival, check in to your hotel and relax before visiting the renowned Periyar Wildlife Sanctuary for a serene boat ride on Periyar Lake, where you may spot elephants, deer, and other wildlife, followed by a visit to the region’s famous spice plantations and optional experiences like an elephant ride, a Kathakali dance performance, or a jeep safari, before returning to the hotel for a restful overnight stay in Thekkady.",
       },
-      { day: "Day 4", description: "Alleppey houseboat cruise with meals." },
-      { day: "Day 5", description: "Departure transfer to Cochin." },
+      { day: "Day 4", description: "After breakfast, check out from the hotel and proceed to Alleppey, where you will check in to your houseboat and embark on a scenic cruise through the serene backwaters, drifting past lush paddy fields, swaying coconut palms, and charming village life, while enjoying a traditional Kerala lunch, evening tea with snacks, and a delicious dinner on board, before unwinding for an overnight stay in your beautifully appointed houseboat." },
+      { day: "Day 5", description: "After breakfast, check out from the houseboat and proceed to Cochin for a city tour, starting with Marine Drive for beautiful views of the serene backwaters, followed by a visit to Fort Kochi to witness the iconic Chinese fishing nets, and exploring Mattancherry Palace and the historic Jew Town with its charming streets and antique shops. Enjoy some last-minute shopping or dining at Lulu Mall before being transferred to Cochin International Airport or the railway station based on your departure schedule, bidding farewell to Kerala with cherished memories of an unforgettable trip. Safe travels!" },
+    ],
+  },
+  {
+    id: 9,
+    image:
+      "https://www.fundayholidays.com/wp-content/uploads/2019/12/munnar-thekkady-tour-packages-350x350.jpg",
+    title: "2 Nights 3 Days Manali Winter Tour",
+    days: 3,
+    nights: 2,
+    stars: 5,
+    description: "Your journey begins with your arrival in Delhi, from where you’ll board an overnight Volvo bus to Manali, departing between 5:30 PM and 9:00 PM, for a scenic 10 to 14-hour drive through the northern plains and into the hills of Himachal Pradesh, arriving the next morning refreshed and ready for your Himalayan adventure.",
+    itenary: [
+      {
+        day: "Day 1",
+        description: "Your journey starts upon arrival in Delhi, where you’ll board an overnight Volvo bus to Manali, departing between 5:30 PM and 9:00 PM, for a scenic 10 to 14-hour drive through the northern plains and the hills of Himachal Pradesh, arriving the next morning refreshed and ready for your Himalayan adventure.",
+      },
+      {
+        day: "Day 2",
+        description:
+          "Arrive at the Manali Volvo station in the morning, where you’ll be comfortably transferred to your hotel, and after settling in and freshening up, head out in the afternoon to explore Manali's iconic attractions, starting with the Hadimba Devi Temple, known for its unique wooden architecture and peaceful surroundings, followed by a visit to the Gadhan Thekchoking Gompa, a Tibetan monastery showcasing the rich spiritual traditions of Tibetan Buddhism, and concluding with a relaxing time at Van Vihar, a lush forest park ideal for a quiet stroll or boat ride.",
+      },
+      { day: "Day 3", description: "After enjoying a hearty breakfast, check out from your hotel and prepare for the final day of your memorable tour. Begin with a visit to the historic Naggar Castle, a centuries-old fort that has been beautifully transformed into a heritage hotel. Explore its fascinating architecture and soak in the stunning views of the surrounding valleys. Next, drive to Kullu, a picturesque valley surrounded by lush landscapes and snow-capped peaks. Here, visit the revered Vaishno Devi Temple, nestled amidst nature and offering a serene atmosphere for reflection. For the more adventurous, opt for an exciting River Rafting experience in the Beas River or take to the skies with paragliding in Kullu (both activities are optional and at your own expense). In the evening, return to Manali and proceed to the Volvo bus stand, where your overnight bus to Delhi awaits. As you board the bus, begin your journey back to Delhi, carrying with you cherished memories of your unforgettable Manali adventure." },
+      
     ],
   },
 ];

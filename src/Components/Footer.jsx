@@ -140,9 +140,9 @@ const Footer = () => {
         <hr />
         <div className="site-info">
           <p id="site-generator" className="text-center footer-copy">
-            <span>© 2025 <a href="https://www.fundayholidays.com/" className="site-name">Funday Holidays</a></span>
+            <span>© 2025 <a href="https://www.fundayholidays.com/" className="site-name">Travelinds</a></span>
             <span> | All rights reserved</span>
-            <span> | <a href="https://www.codeaweb.com/" className="imprint">Developed by Codeaweb</a></span>
+            <span> | <a href="https://www.codeaweb.com/" className="imprint">Developed by Moxoyo</a></span>
           </p>
           {/* <div className="text-center">
             <a
