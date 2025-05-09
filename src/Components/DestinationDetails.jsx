@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { owlCardData } from '../Data';
+import '../Styles/DestinationDetails.css';
 
 const DestinationDetails = () => {
   const { id } = useParams();
@@ -16,17 +17,17 @@ const DestinationDetails = () => {
       <button className='page-section-link btn btn-outline-dark' onClick={() => navigate(-1)} style={{ marginBottom: '20px' }}>
         ← Back
       </button>
-      <h1>{destination.title}</h1>
+      <h2 className='Destination_Details_title'>{destination.title}</h2>
       <img
         src={destination.image}
         alt={destination.title}
-        style={{ width: '100%', maxHeight: '400px', objectFit: 'cover' }}
+        style={{ width: '100%', maxHeight: '400px', objectFit: 'cover', marginTop: '15px' }}
       />
       <p style={{ marginTop: '20px' }}>{destination.subtitle}</p>
 
       {destination.itenary.map((section, idx) => (
         <div key={idx} style={{ marginTop: '30px' }}>
-          <h2>{section.title}</h2>
+          <h2 className='Destination_section_title'>{section.title}</h2>
           <ul>
             {section.description.map((desc, index) => (
               <li key={index} style={{ marginBottom: '10px' }}>

@@ -1,8 +1,25 @@
+import Munnar7D from './assets/TourCardImg/Munnar7D.png';
+import spittivally7D from './assets/TourCardImg/spittivally7D.png';
+import Kothi_Gulaba4D from './assets/TourCardImg/Kothi_Gulaba4D.png';
+import AllapyMunnar5D from './assets/TourCardImg/AllapyMunnar5D.png';
+import Alleppey4D from './assets/TourCardImg/Alleppey4D.png';
+import Munnar3D from './assets/TourCardImg/Munnar3D.png';
+import AlapuzhaCochin2D from './assets/TourCardImg/AlapuzhaCochin2D.png';
+import Thekkady6D from './assets/TourCardImg/Thekkady6D.png';
+import Manali_Winter_Tour3D from './assets/TourCardImg/Manali_Winter_Tour3D.png';
+// image for Destination card
+import Backwaters_and_Houseboat from './assets/DestinationImg/Backwaters_and_Houseboat.png';
+import Cultural from './assets/DestinationImg/Cultural.png';
+import Beaches from './assets/DestinationImg/Beaches.png';
+import Hillstation from './assets/DestinationImg/Hillstation.png';
+
+
+
+
 export const cardData = [
   {
     id: 1,
-    image:
-      "https://www.fundayholidays.com/wp-content/uploads/2019/12/munnar-thekkady-tour-packages-350x350.jpg",
+    image: Munnar7D,
     title: "6 Nights 7 Days Kerala Tour",
     days: 7,
     nights: 6,
@@ -49,8 +66,7 @@ export const cardData = [
   },
   {
     id: 2,
-    image:
-      "https://www.fundayholidays.com/wp-content/uploads/2019/12/munnar-thekkady-tour-packages-350x350.jpg",
+    image: spittivally7D,
     title: "6 Nights 7 Days Spiti Valley Tour via Shimla",
     days: 6,
     nights: 5,
@@ -89,8 +105,7 @@ export const cardData = [
   },
   {
     id: 3,
-    image:
-      "https://www.fundayholidays.com/wp-content/uploads/2019/12/munnar-thekkady-tour-packages-350x350.jpg",
+    image: Kothi_Gulaba4D,
     title: "3N & 4D Kothi Gulaba",
     days: 4,
     nights: 3,
@@ -127,8 +142,7 @@ export const cardData = [
   },
   {
     id: 4,
-    image:
-      "https://www.fundayholidays.com/wp-content/uploads/2019/12/munnar-thekkady-tour-packages-350x350.jpg",
+    image: AllapyMunnar5D,
     title: "5D & 4N Munnar Allapy.",
     days: 5,
     nights: 4,
@@ -163,8 +177,7 @@ export const cardData = [
   },
   {
     id: 5,
-    image:
-      "https://www.fundayholidays.com/wp-content/uploads/2019/12/munnar-thekkady-tour-packages-350x350.jpg",
+    image: Alleppey4D,
     title: "3 Nights 4 Days Alleppey Tour",
     days: 4,
     nights: 3,
@@ -186,8 +199,7 @@ export const cardData = [
   },
   {
     id: 6,
-    image:
-      "https://www.fundayholidays.com/wp-content/uploads/2019/12/munnar-thekkady-tour-packages-350x350.jpg",
+    image: Munnar3D,
     title: "2 Nights 3 Days Munnar & Cochin",
     days: 3,
     nights: 2,
@@ -209,8 +221,7 @@ export const cardData = [
   },
   {
     id: 7,
-    image:
-      "https://www.fundayholidays.com/wp-content/uploads/2019/12/munnar-thekkady-tour-packages-350x350.jpg",
+    image: AlapuzhaCochin2D,
     title: "1 Night 2 Days Alleppey & Cochin Tour",
     days: 2,
     nights: 1,
@@ -223,36 +234,35 @@ export const cardData = [
   },
   {
     id: 8,
-    image:
-      "https://www.fundayholidays.com/wp-content/uploads/2019/12/munnar-thekkady-tour-packages-350x350.jpg",
+    image: Thekkady6D,
     title: "5 Nights 6 Days Munnar, Thekkady & Alleppey",
-    days: 5,
-    nights: 4,
+    days: 6,
+    nights: 5,
     stars: 5,
     description: "Covering the highlights of Munnar, Thekkady, and Alleppey.",
     itenary: [
       {
         day: "Day 1",
-        description: "Upon arrival, you will be warmly welcomed and transferred to Munnar, a picturesque hill station in the Western Ghats, enjoying a scenic four-hour drive with stops at Cheeyappara and Valara waterfalls for photo opportunities, followed by a visit to the Munnar Tea Museum or a stroll through lush tea plantations to experience the region’s rich tea heritage, before checking in to your hotel for a relaxing evening and a comfortable overnight stay.",
+        description: "Upon your arrival, you will be warmly welcomed and transferred to the picturesque hill station of Munnar, where you can enjoy scenic waterfalls en route, explore the Tea Museum or tea plantations, and unwind with a relaxing overnight stay at your hotel.",
       },
       {
         day: "Day 2",
         description:
-          "After breakfast, embark on a full-day sightseeing tour to explore the captivating beauty of Munnar, visiting popular attractions such as Mattupetty Dam, Kundala Dam, Echo Point, and Photo Point—each offering stunning views and picturesque landscapes—followed by a visit to Eravikulam National Park, home to the endangered Nilgiri Tahr and known for its rich biodiversity and scenic trails, before returning to your hotel for a peaceful overnight stay in Munnar.",
+          "After breakfast, embark on a full-day sightseeing tour of Munnar, visiting scenic attractions like Mattupetty Dam, Kundala Dam, Echo Point, Photo Point, and Eravikulam National Park, before returning to your hotel for a peaceful overnight stay in Munnar.",
       },
       {
         day: "Day 3",
         description:
-          "After breakfast, check out from the hotel and proceed to Thekkady, enjoying a scenic drive through the lush landscapes of the Western Ghats; upon arrival, check in to your hotel and relax before visiting the renowned Periyar Wildlife Sanctuary for a serene boat ride on Periyar Lake, where you may spot elephants, deer, and other wildlife, followed by a visit to the region’s famous spice plantations and optional experiences like an elephant ride, a Kathakali dance performance, or a jeep safari, before returning to the hotel for a restful overnight stay in Thekkady.",
+          "After breakfast, check out from the hotel and proceed to Thekkady through the scenic Western Ghats, then check in and relax before visiting Periyar Wildlife Sanctuary for a tranquil boat ride, exploring spice plantations, and enjoying optional activities like an elephant ride, Kathakali performance, or jeep safari, followed by a restful overnight stay in Thekkady.",
       },
-      { day: "Day 4", description: "After breakfast, check out from the hotel and proceed to Alleppey, where you will check in to your houseboat and embark on a scenic cruise through the serene backwaters, drifting past lush paddy fields, swaying coconut palms, and charming village life, while enjoying a traditional Kerala lunch, evening tea with snacks, and a delicious dinner on board, before unwinding for an overnight stay in your beautifully appointed houseboat." },
-      { day: "Day 5", description: "After breakfast, check out from the houseboat and proceed to Cochin for a city tour, starting with Marine Drive for beautiful views of the serene backwaters, followed by a visit to Fort Kochi to witness the iconic Chinese fishing nets, and exploring Mattancherry Palace and the historic Jew Town with its charming streets and antique shops. Enjoy some last-minute shopping or dining at Lulu Mall before being transferred to Cochin International Airport or the railway station based on your departure schedule, bidding farewell to Kerala with cherished memories of an unforgettable trip. Safe travels!" },
+      { day: "Day 4", description: "After breakfast, check out from the hotel and head to the serene hill station of Vagamon, where you can explore its natural beauty with peaceful walks through Pine Forests, quiet moments by Vagamon Lake, and the lush greenery of rolling meadows, before checking in to your hotel for a relaxed overnight stay amidst nature’s tranquility." },
+      { day: "Day 5", description: "After breakfast, check out from the hotel and proceed to Alleppey, where you’ll check in to a traditional houseboat and enjoy a scenic cruise through the tranquil backwaters, with views of lush paddy fields, coconut palms, and village life, followed by onboard meals and a peaceful overnight stay on the houseboat." },
+      { day: "Day 6", description: "After breakfast, check out from the houseboat and proceed to Cochin for a city tour covering Marine Drive, Fort Kochi with its iconic Chinese fishing nets, Mattancherry Palace, and Jew Town, followed by shopping or dining at Lulu Mall, before being transferred to Cochin International Airport or railway station for your onward journey, bidding farewell to Kerala with cherished memories." },
     ],
   },
   {
     id: 9,
-    image:
-      "https://www.fundayholidays.com/wp-content/uploads/2019/12/munnar-thekkady-tour-packages-350x350.jpg",
+    image: Manali_Winter_Tour3D,
     title: "2 Nights 3 Days Manali Winter Tour",
     days: 3,
     nights: 2,
@@ -278,8 +288,7 @@ export const cardData = [
 export const owlCardData = [
   {
     id: 1,
-    image:
-      "https://www.ekeralatourism.net/wp-content/uploads/2018/03/Alleppey.jpg",
+    image: Backwaters_and_Houseboat,
     title: "Backwaters and Houseboat Alleppy & Kumarakom, Kollam, Kuttanad ",
     subtitle:
       "Also known as Alappuzha, Alleppey is Kerala’s iconic backwater destination—a place where life flows as gently as the water beneath a houseboat. With an intricate network of lakes, lagoons, and canals fringed by lush greenery, Alleppey is a portrait of serenity and slow living. Whether you're gliding through the backwaters on a kettuvallam, watching paddy fields unfold on the horizon, or catching a golden sunset from a riverside hammock, Alleppey offers a tranquil yet deeply immersive experience.",
@@ -332,7 +341,7 @@ export const owlCardData = [
   },
   {
     id: 2,
-    image: "https://www.holidify.com/images/bgImages/MUNNAR.jpg",
+    image: Cultural,
     title: "Cultural Destination Cochin, Thiruvanadhupuram, Thrissur, Palakkad",
     subtitle:
       "Cochin, also known as Kochi, is Kerala’s vibrant gateway to the world. Situated along the southwest coast, this city has been a bustling trading hub for centuries—drawing in Arab merchants, Chinese sailors, Portuguese explorers, Dutch traders, and British colonists. Today, Kochi reflects a fascinating blend of these cultures in its architecture, food, lifestyle, and art. With colonial lanes, quiet backwaters, spice-scented markets, modern cafes, and ancient churches, Cochin feels like both a living museum and a modern coastal city rolled into one.",
@@ -388,8 +397,7 @@ export const owlCardData = [
   },
   {
     id: 3,
-    image:
-      "https://ihplb.b-cdn.net/wp-content/uploads/2021/09/kerala-in-october-kollam.jpg",
+    image: Beaches,
     title: "Beaches Kovalam, Varkala, Marai, Bekal",
     subtitle: "Kerala’s most iconic beach destination, is a coastal gem that has long attracted travelers seeking sun, sea, and serenity. Located just 16 kilometers from the state capital Thiruvananthapuram, Kovalam offers a mix of idyllic beaches, lively coastal vibes, and wellness experiences, making it the perfect getaway for beach lovers, honeymooners, and wellness seekers alike. With its crescent-shaped shoreline, charming lighthouses, and coconut-fringed promenades, Kovalam is a beachside dream that never goes out of style.",
     itenary: [
@@ -451,8 +459,7 @@ export const owlCardData = [
   },
   {
     id: 4,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMizCgPIQef-EM4mnImeqOzwy46SDLymCKSA&s",
+    image: Hillstation,
     title: "Hill Station Munnar, Thekkady, Wayanad, Vagamon, Ponmudi",
     subtitle: "Tucked away in the rolling hills of the Western Ghats, Munnar is a dreamy escape for nature lovers, honeymooners, and adventure seekers alike. At around 1,600 meters above sea level, this hill station in Kerala's Idukki district is famed for its endless tea plantations, mist-draped valleys, and cool, refreshing climate all year round.",
     itenary: [
