@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../Styles/Navbar.css";
 import { Navbar, Container, Nav, Offcanvas } from 'react-bootstrap';
-import Logo from '../assets/Logo/travelinds_logo_resized.png';
+import Logo from '../assets/Logo/logo.png';
 
 
 const Header = () => {
@@ -31,7 +31,7 @@ const Header = () => {
     <>
     {['lg'].map((expand) => (
       <Navbar key={expand} expand={expand} sticky="top"  
-      className={`custom-navbar ${scrolledPast ? "navbar-transparent" : "navbar-white"} p-4`}
+      className={`custom-navbar ${scrolledPast ? "navbar-transparent" : "navbar-white"} `}
       >
         <Container fluid>
           <Navbar.Brand href="/">

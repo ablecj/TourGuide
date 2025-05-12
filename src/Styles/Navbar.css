@@ -10,6 +10,7 @@
 
 .custom-navbar {
     transition: background-color 0.4s ease, box-shadow 0.4s ease;
+    padding: 18px !important;
   }
   
   .navbar-white {
@@ -121,7 +122,16 @@
   }
   
 
-
+@media (max-width: 768px) {
+    .custom-navbar {
+        padding: 8px !important;
+    }
+}   
+@media (max-width: 576px) {
+    .custom-navbar {
+        padding: 8px !important;
+    }
+}   
 
 
 

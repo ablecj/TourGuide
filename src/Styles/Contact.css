@@ -1,0 +1,104 @@
+.contact_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact_title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text-color);
+  letter-spacing: -0.01px;
+  margin-bottom: 8px;
+  display: inline-block;
+  position: relative;
+  text-transform: capitalize;
+  margin-bottom: 32px;
+}
+.contact_title:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  left: 50%;
+  background: var(--secondary-shades);
+  width: 50%;
+  margin-left: -25%;
+}
+.form_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+/* form_inner_cont */
+.form_inner_cont {
+  padding-bottom: 24px;
+  display: flex;
+  align-items: flex-start; /* ensures textarea aligns properly */
+  flex-wrap: wrap; /* handles responsiveness */
+}
+
+/* Label styling */
+.form_inner_cont label {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--secondary);
+  padding-right: 16px;
+  min-width: 120px; /* consistent alignment */
+  padding-top: 12px; /* vertical alignment with input */
+}
+
+/* Input and textarea styling */
+.form_inner_cont input,
+.form_inner_cont textarea {
+  padding: 12px;
+  border: 1px solid var(--secondary);
+  font-family: inherit;
+  font-size: 16px;
+  width: 100%;
+  max-width: 500px; /* optional max width */
+  box-sizing: border-box;
+  border-radius: 4px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus effect */
+.form_inner_cont input:focus,
+.form_inner_cont textarea:focus {
+  border-color: var(--teritary-color);
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+.form_inner_cont input::placeholder,
+.form_inner_cont textarea::placeholder {
+  color: var(--teritary-color);
+  opacity: 1; 
+  font-size: 12px;
+}
+
+/* Textarea-specific */
+.form_inner_cont textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+/* form_cont */
+.form_cont button {
+    padding: 8px 18px;
+    outline: none;
+    border: 1px solid var(--secondary);
+    background-color: var(--secondary);
+    color: var(--primary-bg);
+    
+}
+.form_cont button:hover {
+    background-color: var(--teritary-color);
+    border-radius: 8px;
+    transition: .5s ease-in-out;
+    border: 1px solid var(--teritary-color);
+}
+
+

@@ -5,6 +5,7 @@ import Banner1 from "../assets/Banner Img/Banner1.jpg";
 import Banner2 from "../assets/Banner Img/Banner2.jpg";
 import Banner3 from "../assets/Banner Img/Banner3.jpg";
 import Banner4 from "../assets/Banner Img/Banner4.jpg";
+import '../Styles/Banner.css';
 
 const Banner = () => {
   return (
@@ -15,8 +16,8 @@ const Banner = () => {
           <div className="black-overlay"></div>
         </div>
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Wander Far, Discover More — Travelinds Awaits.</h3>
+          {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -26,8 +27,8 @@ const Banner = () => {
           <div className="black-overlay"></div>
         </div>
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Your Journey Begins Here — Explore with Travelinds.</h3>
+          {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -37,10 +38,10 @@ const Banner = () => {
           <div className="black-overlay"></div>
         </div>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
+          <h3>Crafting Unforgettable Adventures — Only at Travelinds.</h3>
+          {/* <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          </p> */}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={5000}>
@@ -49,10 +50,10 @@ const Banner = () => {
           <div className="black-overlay"></div>
         </div>
         <Carousel.Caption>
-          <h3>Fourth slide label</h3>
-          <p>
+          <h3>See the World, Feel Alive — Travel with Travelinds.</h3>
+          {/* <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          </p> */}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

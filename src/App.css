@@ -54,6 +54,11 @@ a {
   padding: 130px 24px 0 24px;
 }
 
+@media (max-width: 768px) {
+  .pt-section {
+    padding: 60px 24px 0 24px;
+  }
+}
 
 
 

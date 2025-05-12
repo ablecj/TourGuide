@@ -165,7 +165,11 @@
 }
 
 
-
+@media (max-width: 768px) {
+  .page-section {
+    padding: 60px 24px 60px 24px;
+  }
+}
 
 
 
