@@ -9,14 +9,14 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-      <Banner />
+      <Banner  />
       {/* popular section */}
       <section
         id="Popular_Tour"
         className="container-fluid pt-section  popularSection font_family"
       >
         <div className="popular_section_container">
-          <div className="popularSectionHeading d-flex justify-content-between align-items-center flex-wrap gap-2">
+          <div className="popularSectionHeading d-flex justify-content-between align-items-center flex-wrap gap-2" data-aos="fade-down">
             <div>
               <h2 className="popularSection_title ">Popular Tour packages</h2>
               <p className="page-section-desc mb-0">
@@ -36,7 +36,7 @@ const Home = () => {
         </div>
 
         {/* card row */}
-        <div className="row card-items mt-5">
+        <div className="row card-items mt-5"  data-aos="fade-down">
           {cardData.slice(0, 6).map((card) => (
             <TourCard key={card.id} {...card} />
           ))}
@@ -47,8 +47,9 @@ const Home = () => {
       <section
         id="Destinations"
         className="container-fluid pt-section  Popular_Destination"
+        
       >
-        <div className="page-section-header">
+        <div className="page-section-header"  data-aos="fade-down">
           <h2 className="page-section-title">Popular Destinations </h2>
           <p className="page-section-desc mb-0">
             Explore our popular destinations{" "}
@@ -61,13 +62,13 @@ const Home = () => {
           </Link> */}
         </div>
         {/* owl carousel */}
-        <div className="owl_slider ">
+        <div className="owl_slider "  data-aos="fade-down">
           <OwlSlider />
         </div>
       </section>
       {/* about section */}
-      <section id="About" className="container-fluid   page-section">
-        <div className="entry-content">
+      <section id="About" className="container-fluid   page-section"  >
+        <div className="entry-content" data-aos="fade-down">
           <h2>About Travelinds</h2>
           <p>
             At Travelinds, <strong>we bring over 20 years of experience</strong>  in the travel

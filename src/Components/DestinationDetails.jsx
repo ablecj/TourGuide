@@ -1,19 +1,25 @@
-import React from 'react';
+import  { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { owlCardData } from '../Data';
 import '../Styles/DestinationDetails.css';
 
 const DestinationDetails = () => {
+
   const { id } = useParams();
   const navigate = useNavigate();
   const destination = owlCardData.find((item) => item.id === parseInt(id));
+
+   useEffect(() => {
+      // Scroll to top when the component mounts
+      window.scrollTo(0, 0);
+    }, [id]);
 
   if (!destination) {
     return <h2>Destination not found</h2>;
   }
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div style={{ padding: '20px' }} data-aos="fade-down">
       <button className='page-section-link btn btn-outline-dark' onClick={() => navigate(-1)} style={{ marginBottom: '20px' }}>
         ← Back
       </button>
@@ -22,11 +28,12 @@ const DestinationDetails = () => {
         src={destination.image}
         alt={destination.title}
         style={{ width: '100%', maxHeight: '400px', objectFit: 'cover', marginTop: '15px' }}
+        data-aos="fade-down"
       />
       <p style={{ marginTop: '20px' }}>{destination.subtitle}</p>
 
       {destination.itenary.map((section, idx) => (
-        <div key={idx} style={{ marginTop: '30px' }}>
+        <div key={idx} style={{ marginTop: '30px' }} data-aos="fade-down">
           <h2 className='Destination_section_title'>{section.title}</h2>
           <ul>
             {section.description.map((desc, index) => (

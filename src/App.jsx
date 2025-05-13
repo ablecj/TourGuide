@@ -9,9 +9,19 @@ import CardDetail from './Components/CardDetail';
 import TourPackage from './Pages/TourPackage';
 import DestinationDetails from './Components/DestinationDetails';
 import ContactForm from './Pages/Contact';
+// AOS
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 function App() {
-
+  // sideEffects for AOS
+    useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      once: false,
+    });
+  }, []);
 
   return (
     <BrowserRouter>

@@ -31,7 +31,7 @@ useEffect(()=> {
 
 return (
     isVisible && (
-        <button onClick={handleScrollToTop} id="back-to-top" title="Go to top" className="btn" >
+        <button onClick={handleScrollToTop} id="back-to-top" title="Go to top" className="btn" data-aos="fade-left" >
             <i className="fas fa-arrow-up"></i><span className="sr-only">
                 Back to Top</span>
         </button>

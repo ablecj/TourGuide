@@ -17,7 +17,7 @@ const TourCard = ({
   const emptyStars = 5 - filledStars;
 
   return (
-    <div className="card-item-col col-12 col-sm-6 col-md-4 col-lg-4">
+    <div className="card-item-col col-12 col-sm-6 col-md-4 col-lg-4" data-aos="fade-down">
       <div id={`tour-card-${id}`} className="card card-item tour-card-item">
         {/* <a href={''} className="card-link"> */}
         <picture className="post-thumbnail entry-media card-image featured-media">

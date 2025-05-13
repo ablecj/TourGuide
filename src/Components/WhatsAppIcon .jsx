@@ -21,6 +21,7 @@ const WhatsAppIcon = () => {
         boxShadow: '0 2px 8px rgba(0, 0, 0, 0.3)',
         textAlign: 'center',
       }}
+      data-aos="fade-right"
     >
       <i className="fab fa-whatsapp" style={{width: '30px', height: '30px' }} />
     </a>

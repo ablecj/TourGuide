@@ -1,8 +1,21 @@
-import React, { useState } from "react";
+import { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser"; // make sure this is installed
 import "../Styles/Contact.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+
+
+
 
 const ContactForm = () => {
+  // sideeffect run for aos
+//   useEffect(() => {
+//   AOS.init({
+//     duration: 1000, 
+//     once: true,     
+//   });
+// }, []);
+
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -62,7 +75,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="pt-section contact_container">
+    <div className="pt-section contact_container" data-aos="fade-down">
       <h2 className="contact_title">Contact Us</h2>
       <form onSubmit={handleSubmit} className="form_cont">
         <div className="form_inner_cont">

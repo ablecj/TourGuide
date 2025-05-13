@@ -9,7 +9,7 @@ import '../Styles/Banner.css';
 
 const Banner = () => {
   return (
-    <Carousel pause={false}>
+    <Carousel pause={false} data-aos="fade-down">
       <Carousel.Item interval={5000}>
         <div className="carousel-image-wrapper">
           <img className="d-block w-100" src={Banner1} alt="First slide" />
