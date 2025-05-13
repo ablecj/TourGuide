@@ -106,7 +106,7 @@ const Footer = () => {
             {/* Useful Links + Destinations */}
             <div className="col-md-4">
               <div className="row">
-                <div className="col-8">
+                <div className="col-12">
                   <div className="footer-col">
                     <h4 className="footer-col-title">Useful Links</h4>
                     <ul className="footer-col-nav nav flex-row mb-3">

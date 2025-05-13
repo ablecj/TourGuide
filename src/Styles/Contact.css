@@ -101,4 +101,16 @@
     border: 1px solid var(--teritary-color);
 }
 
+/* contact_form_stat */
+.contact_form_stat {
+  font-size: medium;
+  
+}
+.contact_form_stat.success {
+  color: var(--teritary-color);
+}
+
+.contact_form_stat.error {
+  color: var(--secondary);
+}
 

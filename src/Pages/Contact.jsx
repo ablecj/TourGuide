@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import emailjs from 'emailjs-com';
+import emailjs from "@emailjs/browser"; // make sure this is installed
 import "../Styles/Contact.css";
 
 const ContactForm = () => {
@@ -9,6 +9,7 @@ const ContactForm = () => {
     message: "",
   });
   const [status, setStatus] = useState("");
+  const [statusType, setStatusType] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -18,32 +19,46 @@ const ContactForm = () => {
     });
   };
 
+  // Phone validation function (basic: 10 digits only)
+  const isValidPhone = (phone) => {
+    const phoneRegex = /^[0-9]{10}$/;
+    return phoneRegex.test(phone);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-
     const { name, phone, message } = formData;
 
-    if (name && phone && message) {
-      // Send email using EmailJS
-      emailjs
-        .sendForm(
-          "your_service_id",
-          "your_template_id",
-          e.target,
-          "your_user_id"
-        )
-        .then(
-          (result) => {
-            setStatus("Message sent successfully!");
-            setFormData({ name: "", phone: "", message: "" });
-          },
-          (error) => {
-            setStatus("Failed to send message. Please try again later.");
-          }
-        );
-    } else {
+    if (!name || !phone || !message) {
       setStatus("Please fill out all fields.");
+      setStatusType("error");
+      return;
     }
+
+    if (!isValidPhone(phone)) {
+      setStatus("Please enter a valid 10-digit phone number.");
+      setStatusType("error");
+      return;
+    }
+
+    emailjs
+      .send(
+        "service_xvssoz9", // Replace with your actual EmailJS service ID
+        "template_m61794e", // Replace with your EmailJS template ID
+        { name, phone, message },
+        "V_cyOYwtxR7k9H2F3" // Replace with your EmailJS public key
+      )
+      .then(
+        (result) => {
+          setStatus("Message sent successfully!");
+          setStatusType("success");
+          setFormData({ name: "", phone: "", message: "" });
+        },
+        (error) => {
+          setStatus("Failed to send message. Please try again later.");
+          setStatusType("error");
+        }
+      );
   };
 
   return (
@@ -94,7 +109,7 @@ const ContactForm = () => {
         <button type="submit">Submit</button>
       </form>
 
-      {status && <p>{status}</p>}
+      {status && <p className={`contact_form_stat ${statusType}`}>{status}</p>}
     </div>
   );
 };
