@@ -69,7 +69,7 @@ const Home = () => {
       {/* about section */}
       <section id="About" className="container-fluid   page-section"  >
         <div className="entry-content" data-aos="fade-down">
-          <h2>About Travelinds</h2>
+          <h2 className="About_Title">About Travelinds</h2>
           <p>
             At Travelinds, <strong>we bring over 20 years of experience</strong>  in the travel
             and tourism industry, delivering exceptional service and

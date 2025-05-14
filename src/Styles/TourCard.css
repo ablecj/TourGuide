@@ -123,7 +123,7 @@ a {
   display: inline-block;
   font-size: 1.2rem;
   line-height: 1;
-  color: #dab800 !important;
+  color: var(--secondary-shades) !important;
   /* position: absolute; */
   top: 0;
   left: 0;
@@ -147,7 +147,7 @@ a {
 }
 
 .filled-stars {
-  color: #dab800 !important;
+  color: var(--secondary-shades) !important;
   z-index: 2;
   pointer-events: none;
 }
@@ -200,14 +200,14 @@ hr:not([size]) {
 }
 .card-item-col .card .btn-tour {
     color: #FFF;
-    background-color: #ff633e;
+    background-color: var(--secondary);
     font-weight: 600;
     border-radius: 5px;
 }
 .card-item-col .card .btn-tour:hover {
     color: #fff;
-    background: #03a69f;
-    border-color: #03a69f;
+    background: var(--teritary-color);
+    border-color: var(--teritary-color);
 }
 
 

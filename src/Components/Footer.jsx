@@ -11,19 +11,19 @@ const Footer = () => {
             <div className="col-md-4">
               <div className="footer-col">
                 <h4 className="footer-col-title">
-                  Funday Tours &amp; Travels Pvt. Ltd.
+                  Travelinds &amp; Travels Pvt. Ltd.
                 </h4>
                 <ul className="list-unstyled contact-address">
                   <li className="address">
-                    SF Arcade, Kunnumpuram Lane,
+                    Anjikathu Road, 
                     <br />
-                    Kakkanad Kochi, Kerala,
+                    CSEZ, Chittethukara - Kochi, Kerala 682037
                     <br />
-                    India 682030
+                    Building No 4263/16
                   </li>
                   <li className="phone my-3">
                     <i className="fas fa-phone-alt me-2"></i>
-                    <a href="tel:+916238888326">+91 6238888326</a>,{" "}
+                    <a href="tel:+916238888326">+91 6238888326</a>{" "}
                     {/* <a href="tel:+919656913336">+91 9656 91 3336</a> */}
                   </li>
                   {/* <li className="email">

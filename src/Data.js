@@ -20,7 +20,7 @@ export const cardData = [
   {
     id: 1,
     image: Munnar7D,
-    title: "6 Nights 7 Days Kerala Tour",
+    title: "Kerala Tour - Munnar Thekkady Alleppey",
     days: 7,
     nights: 6,
     stars: 4,
@@ -67,7 +67,7 @@ export const cardData = [
   {
     id: 2,
     image: spittivally7D,
-    title: "6 Nights 7 Days Spiti Valley Tour via Shimla",
+    title: "Spiti Valley Tour via Shimla Tabo kalpa",
     days: 6,
     nights: 5,
     stars: 4,
@@ -106,7 +106,7 @@ export const cardData = [
   {
     id: 3,
     image: Kothi_Gulaba4D,
-    title: "3N & 4D Kothi Gulaba",
+    title: "Kothi Gulaba Mannali Kullu",
     days: 4,
     nights: 3,
     stars: 4,
@@ -143,7 +143,7 @@ export const cardData = [
   {
     id: 4,
     image: AllapyMunnar5D,
-    title: "5D & 4N Munnar Allapy.",
+    title: "Munnar Alleppey Thekkady Cochin",
     days: 5,
     nights: 4,
     stars: 4,
@@ -178,7 +178,7 @@ export const cardData = [
   {
     id: 5,
     image: Alleppey4D,
-    title: "3 Nights 4 Days Alleppey Tour",
+    title: "Alleppey Tour - Munnar Alleppey Cochin",
     days: 4,
     nights: 3,
     stars: 5,
@@ -200,7 +200,7 @@ export const cardData = [
   {
     id: 6,
     image: Munnar3D,
-    title: "2 Nights 3 Days Munnar & Cochin",
+    title: "Munnar & Cochin",
     days: 3,
     nights: 2,
     stars: 4,
@@ -222,7 +222,7 @@ export const cardData = [
   {
     id: 7,
     image: AlapuzhaCochin2D,
-    title: "1 Night 2 Days Alleppey & Cochin Tour",
+    title: "Alleppey & Cochin Tour",
     days: 2,
     nights: 1,
     stars: 4,
@@ -235,7 +235,7 @@ export const cardData = [
   {
     id: 8,
     image: Thekkady6D,
-    title: "5 Nights 6 Days Munnar, Thekkady & Alleppey",
+    title: "Munnar, Thekkady, Vagamon, Alleppey & Cochin",
     days: 6,
     nights: 5,
     stars: 5,
@@ -263,7 +263,7 @@ export const cardData = [
   {
     id: 9,
     image: Manali_Winter_Tour3D,
-    title: "2 Nights 3 Days Manali Winter Tour",
+    title: "Manali Winter Tour - Mannali, Naggar & Kullu",
     days: 3,
     nights: 2,
     stars: 5,
