@@ -113,7 +113,7 @@ const Footer = () => {
                       {[
                         ["Home", "/"],
                         ["Tour Packages", "/TourPackage"],
-                        ["Contact Us", "/ContactUs"],
+                        ["Contact Us", "/Contact"],
                       ].map(([text, url], index) => (
                         <li className="nav-item" key={index}>
                           <a href={`${url}`} className="nav-link">
