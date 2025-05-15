@@ -61,7 +61,7 @@ const Footer = () => {
                   {/* web */}
                   <li className="email">
                     <i class="fa-solid fa-globe me-2" ></i>
-                    <a href="/">www.travelinds.com</a>   
+                    <a href="/">www.travelinds.com</a>
                   </li>
                 </ul>
 
