@@ -146,7 +146,7 @@ const Footer = () => {
                       {[
                         ["Home", "/"],
                         ["Tour Packages", "/TourPackage"],
-                        ["Contact Us", "/ContactUs"],
+                        ["Contact Us", "/Contact"],
                       ].map(([text, url], index) => (
                         <li className="nav-item" key={index}>
                           <a href={`${url}`} className="nav-link">
@@ -218,7 +218,7 @@ const Footer = () => {
           <p id="site-generator" className="text-center footer-copy">
             <span>
               © 2025{" "}
-              <a href="https://www.fundayholidays.com/" className="site-name">
+              <a href="https://travelinds.com/" className="site-name">
                 Travelinds
               </a>
             </span>
@@ -226,8 +226,8 @@ const Footer = () => {
             <span>
               {" "}
               |{" "}
-              <a href="https://www.codeaweb.com/" className="imprint">
-                Developed by Moxoyo
+              <a href="https://subtle-stroopwafel-63f6ab.netlify.app/" className="imprint">
+                Developed by Able c j
               </a>
             </span>
           </p>
