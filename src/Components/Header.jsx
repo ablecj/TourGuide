@@ -50,7 +50,7 @@ const Header = () => {
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title className="brand_name" id={`offcanvasNavbarLabel-expand-${expand}`}>
-                Brand Name
+                Travelinds Tours
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>

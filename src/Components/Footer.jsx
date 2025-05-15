@@ -1,4 +1,4 @@
-import React from "react";
+
 import "../Styles/Footer.css";
 
 const Footer = () => {
@@ -11,17 +11,20 @@ const Footer = () => {
             <div className="col-md-4">
               <div className="footer-col">
                 <h4 className="footer-col-title">
-                  Travelinds &amp; Travels Pvt. Ltd.
+                  Travelinds Tours.
                 </h4>
+                {/* home Town Address */}
                 <ul className="list-unstyled contact-address">
                   <li className="address">
+                    Travelinds, 
+                    <br />
+                    Building No 4263/16
+                    <br />
                     Anjikathu Road, 
                     <br />
                     CSEZ, Chittethukara - Kochi, Kerala 682037
-                    <br />
-                    Building No 4263/16
                   </li>
-                  <li className="phone my-3">
+                  <li className="phone my-1">
                     <i className="fas fa-phone-alt me-2"></i>
                     <a href="tel:+916238888326">+91 6238888326</a>{" "}
                     {/* <a href="tel:+919656913336">+91 9656 91 3336</a> */}
@@ -31,10 +34,40 @@ const Footer = () => {
                     <a href="mailto:info@fundayholidays.com">info@fundayholidays.com</a>
                   </li> */}
                 </ul>
+                {/* Goan Address */}
+                <ul className="list-unstyled contact-address">
+                  <li className="address">
+                    Travelinds, 
+                    <br />
+                    Mr. P. Narvekar,
+                    <br />
+                    Orgao, Marcel, Ponda - Goa.
+                    {/* <br />
+                    CSEZ, Chittethukara - Kochi, Kerala 682037 */}
+                  </li>
+                  <li className="phone my-1">
+                    <i className="fas fa-phone-alt me-2"></i>
+                    <a href="tel:+917057425249">+91 7057425249</a>{" "}
+                    {/* <a href="tel:+919656913336">+91 9656 91 3336</a> */}
+                  </li>
+                  <li className="email">
+                    <i className="fas fa-envelope me-2"></i>
+                    <a href="mailto:travelinds.in@gmail.com">travelinds.in@gmail.com</a>
+                  </li>
+                  <li className="email">
+                    <i className="fas fa-envelope me-2"></i>
+                    <a href="mailto:info@travelinds">info@travelinds</a>
+                  </li>
+                  {/* web */}
+                  <li className="email">
+                    <i class="fa-solid fa-globe me-2" ></i>
+                    <a href="www.travelinds.com">www.travelinds.com</a>
+                  </li>
+                </ul>
 
                 {/* Social Links */}
                 <ul className="social-links nav mb-3">
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a
                       href="#"
                       className="nav-link"
@@ -43,7 +76,7 @@ const Footer = () => {
                     >
                       <i className="fab fa-facebook-square"></i>
                     </a>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
                     <a
                       href="#"
