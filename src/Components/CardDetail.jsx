@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { useParams } from "react-router-dom";
-import { cardData } from "../Data"
+import { Link, useParams } from "react-router-dom";
+import { cardData } from "../Data";
 
 import "../Styles/Details.css";
 
@@ -16,24 +16,34 @@ const CardDetail = () => {
   if (!card) return <h2>Tour not found</h2>;
 
   return (
-    <div className="Details_page" data-aos="fade-down">
-      <img
-        src={card.image}
-        alt={card.title}
-        className="img-fluid mb-5"
-      
-      />
-      <h1 className="Detail_Title" data-aos="fade-down">{card.title}</h1>
-      <p className="Detail_Para" data-aos="fade-down">{card.description}</p>
+    <div>
+      <div className="back_btn_cont" data-aos="fade-down">
+        <Link to="/TourPackage" className="page-section-link btn btn-outline-dark">
+          <i className="fas fa-chevron-left me-1"></i> Back
+        </Link>
+      </div>
+      <div className="Details_page" data-aos="fade-down">
+        <img src={card.image} alt={card.title} className="img-fluid mb-5" />
+        <h1 className="Detail_Title" data-aos="fade-down">
+          {card.title}
+        </h1>
+        <p className="Detail_Para" data-aos="fade-down">
+          {card.description}
+        </p>
 
-      <h3 className="Tour_plan_Title" data-aos="fade-down"> Tour Plans</h3>
-      <ul className="list-group" data-aos="fade-down">
-        {card.itenary.map((item, index) => (
-          <li key={index} className="list-group-item details_itenary">
-            <strong className="Details_day">{item.day}:</strong> {item.description}
-          </li>
-        ))}
-      </ul>
+        <h3 className="Tour_plan_Title" data-aos="fade-down">
+          {" "}
+          Tour Plans
+        </h3>
+        <ul className="list-group" data-aos="fade-down">
+          {card.itenary.map((item, index) => (
+            <li key={index} className="list-group-item details_itenary">
+              <strong className="Details_day">{item.day}:</strong>
+              {item.description}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };

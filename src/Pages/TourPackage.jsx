@@ -24,7 +24,7 @@ const TourPackage = () => {
             to="/"
             className="page-section-link btn btn-outline-dark"
           >
-            Back<i className="fas fa-chevron-right ms-1"></i>
+           <i className="fas fa-chevron-left me-1"></i> Back
           </Link>
         </div>
       </div>
