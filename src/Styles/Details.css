@@ -1,4 +1,16 @@
 
+.back_btn_cont {
+    width: 50%;
+    padding-left: 8px;
+
+}
+.btn-outline-dark {
+    color: #212529;
+    border-color: #212529;
+    width: fit-content;
+    margin: 8px 0;
+}
+
 .Details_page {
     width: 100%;
     height: auto;
@@ -91,24 +103,27 @@
     line-height: normal;
     width: 100% !important;
     font-size: 18px;
-    
+    text-align: justify;
 }
 .Details_day {
-    padding: 0 24px;
-    font-size: 24px;
+    padding-right: 24px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: 700;
-    margin: 0;
+    margin: 0 !important;
     color: var(--text-color);
     letter-spacing: -0.01px;
     margin-bottom: 8px;
     display: inline-block;
     position: relative;
     text-transform: capitalize;
-    margin-bottom: 16px;
 }
 
-
+@media(max-width:768px) {
+    .Details_day{
+        padding-right: 12px;
+    }
+}
 
 
 
