@@ -55,14 +55,14 @@ const ContactForm = () => {
   }
 
   // Optional: Add timestamp if using {{time}} in your EmailJS template
-  const time = new Date().toLocaleString();
+  // const time = new Date().toLocaleString();
 
   // Send email
   emailjs
     .send(
       "service_fcmmklf", // Your EmailJS service ID
       "template_h7kvp0e", // Your template ID
-      { name, phone, message, time }, // Make sure this matches your template
+      { name, phone, message  }, // Make sure this matches your template
       "EBLGFLCgsbzL7HoAU" // Your EmailJS public key
     )
     .then(
