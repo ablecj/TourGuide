@@ -38,41 +38,58 @@ const ContactForm = () => {
     return phoneRegex.test(phone);
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const { name, phone, message } = formData;
+ const handleSubmit = (e) => {
+  e.preventDefault();
+  const { name, phone, message } = formData;
 
-    if (!name || !phone || !message) {
-      setStatus("Please fill out all fields.");
-      setStatusType("error");
-      return;
-    }
+  if (!name || !phone || !message) {
+    setStatus("Please fill out all fields.");
+    setStatusType("error");
+    return;
+  }
 
-    if (!isValidPhone(phone)) {
-      setStatus("Please enter a valid 10-digit phone number.");
-      setStatusType("error");
-      return;
-    }
+  if (!isValidPhone(phone)) {
+    setStatus("Please enter a valid 10-digit phone number.");
+    setStatusType("error");
+    return;
+  }
 
-    emailjs
-      .send(
-        "service_28ne9sd", // Replace with your actual EmailJS service ID
-        "template_h7kvp0e", // Replace with your EmailJS template ID
-        { name, phone, message },
-        "truLZ-5brKBP0A08y" // Replace with your EmailJS public key
-      )
-      .then(
-        (result) => {
-          setStatus("Message sent successfully!");
-          setStatusType("success");
-          setFormData({ name: "", phone: "", message: "" });
-        },
-        (error) => {
-          setStatus("Failed to send message. Please try again later.");
-          setStatusType("error");
-        }
-      );
-  };
+  // Optional: Add timestamp if using {{time}} in your EmailJS template
+  // const time = new Date().toLocaleString();
+
+  // Send email
+  emailjs
+    .send(
+      "service_fcmmklf", // Your EmailJS service ID
+      "template_h7kvp0e", // Your template ID
+      { name, phone, message  }, // Make sure this matches your template
+      "EBLGFLCgsbzL7HoAU" // Your EmailJS public key
+    )
+    .then(
+      () => {
+        setStatus("Message sent successfully!");
+        setStatusType("success");
+
+        // ✅ Clear form fields
+        setFormData({
+          name: "",
+          phone: "",
+          message: "",
+        });
+
+        // Optional: Clear status message after a few seconds
+        setTimeout(() => {
+          setStatus("");
+          setStatusType("");
+        }, 5000);
+      },
+      () => {
+        setStatus("Failed to send message. Please try again later.");
+        setStatusType("error");
+      }
+    );
+};
+
 
   return (
     <div className="pt-section contact_container" data-aos="fade-down">
